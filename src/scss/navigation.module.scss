@@ -1,0 +1,123 @@
+@import "./variables.scss";
+
+.transparent {
+  background-color: white;
+}
+
+.white {
+  background-color: white;
+}
+
+.logo {
+  img {
+    max-width: 180px;
+    height: 50px;
+    margin-right: 5px;
+    // @media screen and (max-width: 1620px){
+    //   margin-right: 5px;
+    // }
+  }
+}
+
+.navigation {
+  top: 0;
+  box-shadow: $shadow;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+  min-height: 60px;
+  & > div {
+    margin: 10px 40px;
+    overflow: hidden;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      overflow: hidden;
+      float: left;
+      // @media screen and (min-width: 1620px){ to center on desktop
+      //   width: 45%;
+      //   margin: auto;
+      //   float: none;
+      //   overflow: unset;
+      // }
+      li {
+        float: left;
+        padding: 0px 0px;
+        color: $themeheadingColor;
+        margin-left: 10px;
+        a {
+          &:hover {
+            border-bottom: 4px solid $themeContentColor;
+            opacity:2.5;
+          }
+          cursor: pointer;
+          text-decoration: none;
+          color: $themeheadingColor;
+        }
+
+        &:not(.logo) {
+          padding: 12px 0px;
+        }
+      }
+    }
+    & > div {
+      float: left;
+    }
+  }
+  .btn {
+    margin: 15px;
+    background: $highlightColor;
+    padding: 10px 35px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background: $highlightColor;
+      opacity: 0.5;
+    }
+  }
+  @media (max-width: 860px) {
+    & > div {
+      margin: 0;
+      ul {
+        padding: 0px;
+      }
+    }
+  }
+  .btnLang{
+    margin: 15px 0px;
+    background: $highlightColor;
+    padding: 10px 35px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      background: $highlightColor;
+      opacity: 0.5;
+    }
+  }
+  @media (max-width: 860px) {
+    & > div {
+      margin: 0;
+      ul {
+        padding: 0px;
+      }
+    }
+  }
+
+  @media (max-width: 749px) {
+    & > div {
+      margin: 0px;
+      ul {
+        padding: 0px;
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

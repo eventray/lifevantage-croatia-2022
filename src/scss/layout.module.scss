@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+.section {
+  text-align: center;
+  margin: 150px auto 0 auto; // we need this because the navbar overlaps all the content
+  .width {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .content {
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: white;
+
+    h1  , h2{
+      color: $themeheadingColor;
+      margin-bottom: 1em;
+    }
+ 
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $themeContentColor;
+      margin-bottom: 1em;
+    }
+    p {
+      color: $fontColor;
+    }
+  }
+}

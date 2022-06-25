@@ -1,0 +1,66 @@
+@import "./variables.scss";
+
+.bm-burger-button {
+  height: 20px;
+  width: 30px;
+  margin: 20px;
+  position: relative;
+  z-index: 500 !important;
+
+  & > span {
+    height: 40px;
+    width: 30px;
+
+    span {
+      background: $themePrimaryColor;
+      width: 30px;
+      position: relative !important;
+      display: block;
+      height: 3px !important;
+      top: 0px !important;
+      margin-top: 4px;
+      border-radius: 5px;
+    }
+  }
+}
+
+.bm-cross-button {
+  right: 13px !important;
+
+  & > span {
+    span {
+      background: $themeSecondaryColor;
+    }
+  }
+}
+
+.bm-menu-wrap {
+  width: 210px !important;
+  left: 20px;
+}
+
+.bm-overlay {
+  width: 230px !important;
+  top: 0px;
+  left: -230px;
+  background: $themePrimaryColor !important;
+  min-height: 1000px;
+  transform: none !important;
+}
+
+.bm-menu-wrap {
+  left: 0px;
+  top: 0px;
+  background: #fff !important;
+}
+
+.bm-item {
+  ul {
+    padding: 0 !important;
+
+    li {
+      display: block;
+      width: 100%;
+    }
+  }
+}

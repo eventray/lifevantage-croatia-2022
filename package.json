@@ -1,0 +1,39 @@
+{
+  "name": "fcm-ohana-2022",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@n8tb1t/use-scroll-position": "^1.0.43",
+    "classnames": "^2.2.6",
+    "faker": "^4.1.0",
+    "gh-pages": "^2.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.6.3",
+    "react-burger-menu": "^2.5.4",
+    "react-dom": "^16.6.3",
+    "react-responsive": "^6.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "homepage": "https://sites.eventray.com/fcm-ohana-2022",
+  "scripts": {
+    "predeploy": "PUBLIC_URL=/lifevantage_retreat_microsite yarn build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "sass": "^1.52.3"
+  }
+}

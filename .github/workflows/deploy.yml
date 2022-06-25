@@ -1,0 +1,23 @@
+name: deploy the microsite
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: deploy
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: deploy
+        uses: ./.github/actions/deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+
+        with:
+          build_path: /github/workspace/build
+          folder_name: lifevantage-croatia-2022

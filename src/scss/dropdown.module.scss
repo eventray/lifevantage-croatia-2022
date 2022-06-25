@@ -1,0 +1,53 @@
+@import './variables.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  @media screen and (min-width: 750px){
+    justify-content: center;
+  }
+  text-align: center;
+
+  a, a:visited {
+    text-decoration: none;
+    color:#023365;
+  }
+}
+
+
+.featuresTab {
+  .featuresTabSection {
+    display: none;
+  }
+}
+
+.featuresTab:hover {
+    @media screen and (min-width: 750px){
+      .featuresTabSection {
+        display: block;
+        position: absolute;
+        background-color: rgba(255,255,255, 0.9);
+        z-index: 9999;
+        margin-top: 19px;
+        border-radius: 5px;
+        text-align: left;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        a {
+          color: #333333;
+          border-bottom: 1px solid #e4e4e4;
+          padding: 10px;
+          font-size: 13px;
+          display: block;
+        }
+        a:last-child {
+          border-bottom: none;
+        }
+        a:hover{
+            color: $themeheadingColor;
+        }
+        a::after {
+          display: none;
+        }
+      }
+    }
+}

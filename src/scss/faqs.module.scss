@@ -1,0 +1,32 @@
+.margin {
+  @media screen and (max-width: 1093px) {
+    margin: 0px;
+  }
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and(min-width:899px) {
+    width: 1000px;
+  }
+
+  h2 {
+    color: #0f2e51;
+    text-align: left;
+  }
+
+  h4 {
+    text-align: left;
+  }
+
+  span {
+    color: #f15f3f;
+    font-size: 22px;
+  }
+
+  p {
+    line-height: 1.4;
+    text-align: left;
+  }
+}

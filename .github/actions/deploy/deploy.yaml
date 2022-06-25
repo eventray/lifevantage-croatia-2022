@@ -1,0 +1,31 @@
+---
+- name: deploy site
+  hosts: localhost
+
+  vars:
+    s3_bucket_name: microsites-prod-core
+    s3_region_name: us-east-2
+
+  tasks:
+    - name: push assets to s3
+      s3_sync:
+        bucket: "{{ s3_bucket_name }}"
+        cache_control: public, max-age=2628000  # one month
+        file_root: "{{ file_root }}"
+        key_prefix: "{{ folder_name }}"
+        mode: push
+        permission: public-read
+        region: "{{ s3_region_name }}"
+
+    - name: push index to root of s3
+      aws_s3:
+        bucket: "{{ s3_bucket_name }}"
+        encrypt: no
+        metadata:
+          Cache-Control: public, max-age=0  # prevent downstream from caching this
+        mode: put
+        object: /{{ folder_name }}/index.html
+        permission: public-read
+        region: "{{ s3_region_name }}"
+        src: "{{ file_root }}/index.html"
+      tags: [push-index]

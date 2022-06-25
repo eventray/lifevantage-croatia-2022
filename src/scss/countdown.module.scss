@@ -1,0 +1,41 @@
+@import "./variables.scss";
+
+.container {
+  font-family: $font-main-content;
+  font-size: $contentFontSize;
+  position: relative;
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 60%;
+    margin: 0px auto;
+    li {
+      float: left;
+      width: 25%;
+      p,
+      label {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      p {
+        font-size: 5vw;
+        font-family: $font-main-content-heading;
+        color: #2696D4;
+      }
+      label {
+        color: #2696D4;
+      }
+    }
+  }
+
+  @media (max-width: $break-medium) {
+    ul {
+      width: 80%;
+      li p {
+        font-size: 9vw;
+      }
+    }
+  }
+}

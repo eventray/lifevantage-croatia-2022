@@ -1,0 +1,241 @@
+@import "./variables.scss";
+
+@font-face {
+  font-family: "Arial";
+}
+
+@font-face {
+  font-family: "Arial";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: $font-main-content;
+}
+
+.theme {
+  height: 100%;
+  width: 100%;
+}
+
+.grid {
+  & > img {
+    border-radius: 10px;
+  }
+}
+
+p {
+  line-height: 1.4;
+}
+
+.theme1 {
+  font-family: $font-main-content;
+  font-size: $contentFontSize;
+  position: relative;
+
+  p {
+    line-height: 1.4;
+  }
+  a {
+    color: $themePrimaryColor;
+    text-decoration: none;
+  }
+  h2 {
+    color: $themeheadingColor;
+  }
+
+  .section1 {
+    @media (max-width: 450px) {
+      max-height: 200px;
+      margin-top: 65px;
+      .landingBackground {
+        margin-top: 6vh;
+        min-height: 640px;
+        background: url("../img/Welcome_original.jpg") no-repeat;
+        background-size: 100% 20%;
+      }
+    }
+    @media (min-width: 450px) {
+      max-height: 640px;
+      margin-top: 65px;
+      .landingBackground {
+        min-height: 640px;
+        background: url("../img/Welcome_original.jpg") no-repeat;
+        background-size: 100% 95%;
+      }
+    }
+
+    .landingOverlay {
+      opacity: 0.75;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      height: 700px;
+    }
+
+    .landingContent {
+      position: absolute;
+      height: 400px;
+      width: 80%;
+      top: 0px;
+      margin: auto;
+      left: 55px;
+      right: 0;
+      margin-top: 100px;
+      text-align: center;
+      h1 {
+        color: $headingColor;
+        font-size: $headingFontSize;
+        width: 100%;
+        text-align: center;
+        font-family: $font-main-content-heading;
+        margin: 0px;
+
+        @media (max-width: $break-medium) {
+          font-size: 50px;
+        }
+
+        @media (max-width: $break-mobile) {
+          font-size: 35px;
+        }
+      }
+      :not(li) > p {
+        width: 100%;
+        text-align: center;
+        color: $headingColor;
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      :not(li) > span.time {
+        text-align: center;
+        font-size: 20px;
+        color: $headingColor;
+        margin: 20px auto;
+        display: inline-block;
+      }
+    }
+  }
+
+  .section2 {
+    h2 {
+      font-size: $secondaryHeadingFontSize;
+      font-family: $font-main-content-heading;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    div {
+      margin: 20px auto;
+      width: 100%;
+      @media screen and (min-width: 799px) {
+        width: 900px;
+      }
+    }
+
+    p {
+      margin-top: 30px;
+      text-align: left;
+    }
+  }
+
+  .section3 {
+    text-align: center;
+    background-color: #fff;
+    h2 {
+      text-align: center;
+    }
+
+    .location {
+      width: 100%;
+      overflow: hidden;
+
+      .floatLeft,
+      .floatRight {
+        width: 45%;
+        text-align: left;
+        img {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: $break-small) {
+        .floatLeft,
+        .floatRight {
+          float: none !important;
+          width: 100%;
+
+          img {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .section4 {
+    text-align: center;
+  }
+
+  .section5 {
+    background: #f4f5fd;
+    text-align: center;
+
+    .faqs {
+      & > div {
+        text-align: left;
+        padding: 40px 0px;
+        label {
+          font-family: $font-main-content-heading;
+        }
+        border-bottom: 1px solid #ddd;
+
+        &:last-child {
+          border: 0;
+        }
+      }
+    }
+  }
+
+  .section6 {
+    text-align: center;
+  }
+
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6 {
+    @media (max-width: $break-medium) {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+  }
+
+  .btn {
+    padding: 10px 35px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .primaryBtn {
+    background: $themePrimaryColor;
+  }
+
+  .secondaryBtn {
+    background: $themeSecondaryColor;
+  }
+
+  .tag {
+    background: $highlightColor;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: "0px auto";
+    font-family: $font-main-content-heading;
+  }
+  .highlighted {
+    color: $highlightColor !important;
+  }
+}

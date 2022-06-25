@@ -1,0 +1,28 @@
+.container{
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and(min-width:899px){
+    width: 1000px
+  }
+
+  h2{
+    color: #0F2E51;
+    text-align: left;
+  }
+
+  h4{
+    text-align: left;
+  }
+
+
+  span{
+    color: #F15F3F;
+    font-size: 22px;
+  }
+
+  p{
+    line-height: 1.4;
+    text-align: left;
+  }
+}

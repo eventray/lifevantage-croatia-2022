@@ -1,0 +1,45 @@
+.container{
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and(min-width:899px){
+    width: 1000px
+  }
+
+  h2{
+    color: #00ABE8;
+    text-align: left;
+  }
+
+  h4{
+    color:#00ABE8;
+    text-align: left;
+  }
+  h1{
+    color: #00ABE8;
+    
+  }
+
+  h3{
+    color:#00ABE8;
+    text-align: left;
+  }
+
+ 
+
+
+  span{
+    color: #F15F3F;
+    font-size: 22px;
+  }
+
+  p{
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  .small{
+    font-size: 14px;
+    font-style: italic;
+  }
+}
