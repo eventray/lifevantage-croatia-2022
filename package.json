@@ -1,5 +1,5 @@
 {
-  "name": "fcm-ohana-2022",
+  "name": "lifevantage-croatia-2022",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,9 +15,9 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.1"
   },
-  "homepage": "https://sites.eventray.com/fcm-ohana-2022",
+  "homepage": "https://sites.eventray.com/lifevantage-croatia-2022",
   "scripts": {
-    "predeploy": "PUBLIC_URL=/lifevantage_retreat_microsite yarn build",
+    "predeploy": "PUBLIC_URL=/lifevantage-croatia-2022 yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
