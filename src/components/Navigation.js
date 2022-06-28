@@ -9,7 +9,6 @@ import logo from "../img/Logo.png";
 import burger from "../img/burger.png";
 
 import cx from "classnames";
-import gus from "../scss/gus.module.scss";
 import styles from "../scss/navigation.module.scss";
 
 function WithScrollHOC({ children }) {
