@@ -9,9 +9,23 @@
     flex-direction: row;
   }
 }
+.flexRoom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+  }
+}
 
 .reverse {
   @media screen and (max-width: 1023px) {
+    flex-direction: column-reverse;
+  }
+}
+.reverseRoom {
+  @media screen and (max-width: 600px) {
     flex-direction: column-reverse;
   }
 }
@@ -23,7 +37,7 @@
 }
 
 .margin5 {
-    margin: 5px;
+  margin: 5px;
 }
 
 .marginLeft {

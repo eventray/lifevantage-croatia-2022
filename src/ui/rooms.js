@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "../scss/faqs.module.scss";
+import styles1 from "../scss/accommodations.module.scss";
 import cx from "classnames";
 import { Layout } from "../components/Layout";
-import room1 from "../img/rooms/room1.png";
-import room2 from "../img/rooms/room2.png";
+import room1 from "../img/rooms/1.png";
+import { Anchor } from "../components/Anchor";
 
 export function rooms() {
   return (
@@ -27,76 +28,146 @@ export function rooms() {
           </h2>
           <br />
           <p>
-            At the end of the day, guest rooms offer the perfect retreat for
-            rest and relaxation. The centerpiece of the rooms is The Westin
-            Heavenly Bed® – featuring a pillow-top mattress, a white goose-down
-            comforter, high thread count sheets, and four overstuffed pillows.
-            You don’t just sleep in it, you lose yourself in it!
+            Elevate your Dubrovnik experience with our Deluxe Rooms,
+            contemporary in design, elegant and lavish in taste. Settle in
+            style, open your window, and let the Mediterranean paradise embrace
+            you.
           </p>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
+          <br />
+          <h4>Deluxe Room Features:</h4>
+          <p>
+            Each Room has its own private balcony offering unforgettable views
+            of the Adriatic Sea and the islands.{" "}
+          </p>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+          >
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "5px" }}
+              >
+                <p style={{ width: "100%", textAlign: "left" }}>
+                  <ul>
+                    <li>1 King Bed</li>
+                    <li>Bathrobe and Slippers</li>
+                    <li>Luxury Toiletries</li>
+                    <li>Hairdryer</li>
+                    <li>Coffee and tea provisions</li>
+                    <li>Free High-Speed Wireless Internet</li>
+                    <li>Mini Bar</li>
+                    <li>Satellite and Pay-TV</li>
+                    <li>Safe</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
               <img
-                style={{ width: "100%", maxHeight: "500px" }}
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
                 src={room1}
-                alt={"room"}
+                alt={"San Marco Hotel"}
                 className={styles.margin}
               />
             </div>
           </div>
-
-          <br />
-          <div>
-            <h4>Check-In</h4>
+          <p>
             <p>
-              3:00 p.m.(Early check in is available if your room is ready; if
-              not, luggage storage is available.){" "}
+              <strong>Check-In: </strong> 2:00
+            </p>{" "}
+            <p>
+              <strong>Check-out: </strong> 12:00 pm
             </p>
             <br />
-            <h4>Check-out</h4>
-            <p>11:00 a.m.</p>
-          </div>
+            <p>
+              <strong>Max Occupancy Per Room: </strong>2 Adult Guests
+              <br />
+              <i>*Crib is allowed for infant up to 2 years of age </i>
+            </p>
+          </p>
           <br />
-
-          <h4>Room Types:</h4>
-          <p>
-            1 King Bed + 1 Sofa Bed (full size)
-            <br />
-            2 Double Beds
-            <br />
-            <br />
-            Room Features:
-            <ul style={{ marginLeft: "30px" }}>
-              <li> All Rooms are Non-Smoking</li>
-              <li> Make-Up Mirror</li>
-              <li> Hair Dryer</li>
-              <li>Safe</li>
-              <li> Iron / Ironing Board</li>
-              <li> Single Serve Brew Coffee Makers</li>
-              <li> In-Room Mini Refrigerators</li>
-              <li> Clock Radio with Dual USB Charging Stations</li>
-              <li> Individual Climate Control</li>
+          <h3>Additional Guests & Additional Nights information</h3>
+          <h4>Additional Guests: </h4>
+          <p style={{ textAlign: "left" }}>
+            <strong>Includes: </strong>
+            <ul style={{ marginLeft: "20px" }}>
+              <li>
+                Ground Transportation (to/from Dubrovnik Airport & Sun Gardens)
+                on program dates. (September 10 – 15th){" "}
+              </li>
+              <li>5-night hotel stay</li>
+              <li>Daily breakfast at Sun Gardens Resort</li>
+              <li>Group Meals</li>
+              <li>Group Activity</li>
             </ul>
           </p>
           <br />
-          <h4 style={{ textAlign: "center" }}>Dolphin Guest Room Floor Plan</h4>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
-              <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={room2}
-                alt={"room"}
-                className={styles.margin}
-              />
-            </div>
-          </div>
-          <p style={{ color: "red" }}>
-            <i>
-              *Not all room have balconies.
-              <br />
-              **Room configurations and furnishings may vary.
-            </i>
+          <p>
+            <p>
+              <strong>3rd Additional Adult </strong> (13 & up) $2,600
+            </p>{" "}
+            <p>
+              <strong>4th Additional Adult </strong> (13 & up) $800
+            </p>
+            <p>
+              <strong>Child </strong>(3 – 12): $600
+            </p>
+            <p>
+              <strong>Child </strong>(2 & under) $150
+            </p>
           </p>
-        </div>{" "}
+          <br />
+          <h4>Additional Nights:</h4>
+          <p>
+            The LifeVantage Group hotel rate will be extended for up to three
+            nights before and after our program dates.
+          </p>
+          <br />
+          <p>
+            <strong>Please note:</strong> We are happy for you to bring
+            additional people. Based upon the hotel there will be additional
+            charges and complications that we are happy to work out with you.{" "}
+            <br />
+            If you bring additional guests, the nightly room rate listed below
+            will increase due to maximum of 2 adults per room. Please reach out
+            to{" "}
+            <Anchor target="_blank" href={"mailto: croatiarooms@museem.com"}>
+              croatiarooms@museem.com{" "}
+            </Anchor>
+            and we will help find the best solution for you and your family.
+          </p>
+          <br />
+          <p>
+            Also, please note: as aligned with the LifeVantage travel procedures
+            transportation will not be provided outside of program dates.{" "}
+          </p>
+          <br />
+          <p style={{ textAlign: "right" }}>
+            <strong>Deluxe Room</strong> with 1 King Bed (crib allowed)
+            <br />
+            <strong>Double Occupancy:</strong>$350 USD per night (includes taxes
+            <br />
+            and fees)
+            <br />
+            <i>*Includes resort daily breakfast </i>
+          </p>
+          <br />
+          <p style={{ textAlign: "center" }}>
+            If you are interested in adding additional guests or additional
+            nights, please email
+            <br />{" "}
+            <Anchor target="_blank" href={"mailto: croatiarooms@museem.com"}>
+              croatiarooms@museem.com{" "}
+            </Anchor>
+            <strong>NO LATER than Friday, August 1st 2022.</strong>
+            <br /> (Requests will be based upon the hotel’s availability){" "}
+          </p>
+        </div>
       </div>
     </Layout>
   );

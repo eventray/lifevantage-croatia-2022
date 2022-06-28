@@ -63,24 +63,29 @@ class Navigation extends React.Component {
             <Link {...linkProps("/schedule")}>Schedule</Link>
           </li>
           <li>
-            <Link {...linkProps("/resorts")}>Resort</Link>
+            <Link {...linkProps("/accomodation")}>Accomodation</Link>
           </li>
           <li>
-            <Link {...linkProps("/rooms")}>Rooms</Link>
+            <Link {...linkProps("/rooms")}>
+              Rooms, Additional Guests & Additional Nights
+            </Link>
+          </li>
+          <li>
+            <Link {...linkProps("/activities")}>Activities</Link>
           </li>
           <li>
             <Link {...linkProps("/dining")}>Dining</Link>
           </li>
 
           <li>
-            <Link {...linkProps("/activities")}>Activities</Link>
-          </li>
-          <li>
-            <Link {...linkProps("/disney3day")}> Disney-3-Day-Hopper</Link>
+            <Link {...linkProps("/legacy")}>Legacy</Link>
           </li>
 
           <li>
             <Link {...linkProps("/faqs")}>FAQs</Link>
+          </li>
+          <li>
+            <Link {...linkProps("/terms")}>Terms & Condition</Link>
           </li>
         </ul>
       </>
@@ -98,15 +103,15 @@ class Navigation extends React.Component {
           styles.navigation
         )}
       >
-        <a
+        {/* <a
           className={cx(styles.secondaryBtn, styles.btn, gus.floatRight)}
           style={{}}
-          href={"https://reg.eventray.com/r/first-colony-mortgage/Ohana22"}
+          href="#"
           target={"_blank"}
           rel={"noopener noreferrer"}
         >
           Register
-        </a>
+        </a> */}
         <MediaQuery query="(min-width: 1161px)">
           <div>{this.renderNavigation()}</div>
         </MediaQuery>

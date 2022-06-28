@@ -7,110 +7,159 @@ const list_schedule = [
   {
     p1: "",
     p2: "",
-    label: "Wednesday, July 20",
+    label: "Saturday, September 10th",
     day: {
       allDay: {
         text: <>All Day</>,
-        location: (
-          <>
-            Arrival
-            <br />
-            Check-in at Dolphin Hotel <br />
-            Register with FCM{" "}
-          </>
-        ),
+        location: <>Guest Travel</>,
       },
       morning: {
         text: "",
         location: "",
       },
       afternoon: {
-        text: <>7:30-9:00pm</>,
-        location: (
-          <>
-            Welcome Reception / Firework Show (Terrace des Fleurs, EPCOT)
-            <br />
-            Heavy hors d’oeuvres and dessert will be served.
-            <br />
-            <i>
-              *Please meet in the lobby by 7:15 to walk over to Epcot entry
-              point.{" "}
-            </i>
-            <p>
-              <ul style={{ textAlign: "left", padding: "0px 20px" }}>
-                <li>We MUST all enter Epcot at the same time.</li>
-                <li>
-                  You MUST wear your wristband (provided during check in) to be
-                  admitted.
-                </li>{" "}
-                <li>Dress Code: Casual </li>
-              </ul>
-            </p>
-          </>
-        ),
+        text: <>1 – 8 PM </>,
+        location: <>LifeVantage Registration / Activity Desk</>,
       },
       evening: {
-        text: "",
-        location: <></>,
+        text: "7 – 9 PM	",
+        location: <>Welcome Reception - Sunset Pool Deck </>,
       },
     },
   },
   {
     p1: "",
     p2: "",
-    label: " Thursday, July 21st to Saturday, July 23rd",
+    label: " Sunday, September 11th",
     day: {
       allDay: {
-        text: <>All Day</>,
-        location: "Disney Parks at leisure",
+        text: <>8:00 AM</>,
+        location: "Breakfast – Origano Hotel Restaurant",
       },
       morning: {
+        text: "9:00 AM",
+        location: "LifeVantage Registration / Activity Desk ",
+      },
+      midmorning: {
+        text: "10:00 AM	",
+        location: (
+          <>
+            Optional buy-in – Boat Tour <br />
+            (Island Tour & Old Town)
+            <br />
+            (Pick up and drop off at Sun Gardens)
+          </>
+        ),
+      },
+      afternoon: {
         text: "",
         location: "",
+      },
+      evening: {
+        text: "PM",
+        location: "Afternoon on own ",
+      },
+    },
+  },
+  {
+    p1: "",
+    p2: "",
+    label: "Monday, September 12th",
+    day: {
+      allDay: {
+        text: "7:00 AM",
+        location: <>Breakfast-Origano Hotel Restaurant</>,
+      },
+      morning: {
+        text: "8:30 AM ",
+        location: (
+          <>
+            {" "}
+            Group Activity | Dubrovnik Challenge
+            <br /> (Meet in Sun Gardens Ballroom)
+          </>
+        ),
       },
       midmorning: {
         text: "",
         location: "",
       },
       afternoon: {
-        text: "",
-        location: "",
+        text: "12:00 PM",
+        location: "Transportation Back to Hotel",
       },
       evening: {
-        text: "",
-        location: "",
+        text: "PM",
+        location: "Dinner on own ",
       },
     },
   },
   {
     p1: "",
     p2: "",
-    label: "Sunday, July 24 ",
+    label: "Tuesday, September 13th",
     day: {
       allDay: {
-        text: "All Day",
-        location: (
-          <>
-            Departures <br />
-            <p>
-              <ul style={{ textAlign: "left", padding: "0px 20px" }}>
-                <li>Check out time is 11:00am.</li>
-                <li>
-                  If you would like a late check-out, you may request that with
-                  the hotel upon arrival at your own expense.
-                </li>{" "}
-                <li>
-                  Your departure time back to the airport will be given to you
-                  at registration.
-                </li>
-              </ul>
-            </p>
-          </>
-        ),
+        text: "AM",
+        location: <>Breakfast – Origano Hotel Restaurant</>,
       },
       morning: {
         text: "",
+        location: <></>,
+      },
+      midmorning: {
+        text: "",
         location: "",
+      },
+      afternoon: {
+        text: "All Day",
+        location: "On Own ",
+      },
+      evening: {
+        text: "8:00 PM	",
+        location: "Club Ginja at Sun Gardens ",
+      },
+    },
+  },
+  {
+    p1: "",
+    p2: "",
+    label: "Wednesday, September 14th",
+    day: {
+      allDay: {
+        text: "AM",
+        location: <>Breakfast – Origano Hotel Restaurant</>,
+      },
+      morning: {
+        text: "9:00 AM",
+        location: <>Legacy Project (Sun Gardens Ballroom)</>,
+      },
+      midmorning: {
+        text: "",
+        location: "",
+      },
+      afternoon: {
+        text: "PM",
+        location: "Afternoon on own	",
+      },
+      evening: {
+        text: "5:30 PM",
+        location: "Closing Dinner ",
+      },
+    },
+  },
+  {
+    p1: "",
+    p2: "",
+    label: "Thursday, September 15th",
+    day: {
+      allDay: {
+        text: "AM",
+        location: <>Breakfast – Origano Hotel Restaurant</>,
+      },
+      morning: {
+        text: "All Day",
+        location: <>Guests Depart</>,
       },
       midmorning: {
         text: "",
