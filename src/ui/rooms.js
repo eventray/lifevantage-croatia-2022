@@ -53,7 +53,9 @@ export function rooms() {
               >
                 <p style={{ width: "100%", textAlign: "left" }}>
                   <ul>
-                    <li>1 King Bed</li>
+                    <li>
+                      <strong>1 King Bed</strong>
+                    </li>
                     <li>Bathrobe and Slippers</li>
                     <li>Luxury Toiletries</li>
                     <li>Hairdryer</li>
@@ -78,7 +80,7 @@ export function rooms() {
           </div>
           <p>
             <p>
-              <strong>Check-In: </strong> 2:00
+              <strong>Check-In: </strong> 2:00 pm
             </p>{" "}
             <p>
               <strong>Check-out: </strong> 12:00 pm
@@ -144,15 +146,14 @@ export function rooms() {
           <br />
           <p>
             Also, please note: as aligned with the LifeVantage travel procedures
-            transportation will not be provided outside of program dates.{" "}
+            transportation will <u>not</u> be provided outside of program dates.{" "}
           </p>
           <br />
           <p style={{ textAlign: "right" }}>
             <strong>Deluxe Room</strong> with 1 King Bed (crib allowed)
             <br />
-            <strong>Double Occupancy:</strong>$350 USD per night (includes taxes
-            <br />
-            and fees)
+            <strong>Double Occupancy: </strong>$350 USD per night (includes
+            taxes and fees)
             <br />
             <i>*Includes resort daily breakfast </i>
           </p>

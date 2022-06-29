@@ -27,12 +27,10 @@ export function Terms() {
             TERMS
           </h2>
           <div style={{ textAlign: "left" }}>
-            <p>
-              Distributor account must be in good standing and compensation plan
-              active during the qualification period and at time of booking.
-              Qualifying positions are non-transferable, non-refundable and are
-              only valid for those listed on the account.
-            </p>
+            Distributor account must be in good standing and compensation plan
+            active during the qualification period and at time of booking.
+            Qualifying positions are non-transferable, non-refundable and are
+            only valid for those listed on the account.
             <br />
             <br />
             Trip is based on double occupancy. <br />

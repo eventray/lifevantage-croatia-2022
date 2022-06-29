@@ -28,9 +28,22 @@ export function Legacy() {
             <br /> LEGACY
           </h2>
           <br />
-          <h3>Date: Wednesday, September 14</h3>
-          <h3>Time: 9:00 AM</h3>
-          <h3>Where to Meet: Sun Gardens Ballroom</h3>
+          <strong style={{ color: "#2696D4", fontSize: "20px" }}>
+            Date:
+          </strong>{" "}
+          Wednesday, September 14
+          <br />
+          <br />
+          <strong style={{ color: "#2696D4", fontSize: "20px" }}>Time: </strong>
+          9:00 AM
+          <br />
+          <br />
+          <strong style={{ color: "#2696D4", fontSize: "20px" }}>
+            Where to Meet:
+          </strong>{" "}
+          Sun Gardens Ballroom
+          <br />
+          <br />
           <p>
             Since the Russian invasion of Ukraine, over 20,000 Ukrainians have
             sought refuge in Croatia. Most of them require the most basic aid in
@@ -45,7 +58,15 @@ export function Legacy() {
             for those in need, the Croatian Red Cross has created a package with
             supplies for two or four people containing basic foods and hygienic
             necessities. In addition, The LifeVantage Legacy project will
-            partner with local organizations including local
+            partner with local organizations including local supermarket and
+            wholesale chains, to provide additional supplies, coordination, and
+            manpower to this effort.
+            <br />
+            <br />
+            Together, we can make a difference for those who have been affected
+            by the conflict in Ukraine.
+            <br />
+            <br />
             <div>
               <img
                 style={{
@@ -58,12 +79,6 @@ export function Legacy() {
                 className={styles.margin}
               />
             </div>
-            supermarket and wholesale chains, to provide additional supplies,
-            coordination, and manpower to this effort.
-            <br />
-            <br />
-            Together, we can make a difference for those who have been affected
-            by the conflict in Ukraine.
           </p>
           <br />
           <h2

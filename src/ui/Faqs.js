@@ -287,7 +287,13 @@ export function Faqs() {
               documentation from a licensed health care provider of having
               recovered from COVID-19 in the 90 days preceding travel.  Check
               the CDC website for additional information and{" "}
-              <u>Frequently Asked Questions</u>
+              <Anchor
+                href={
+                  "https://www.cdc.gov/coronavirus/2019-ncov/travelers/international-travel/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Ftravelers%2Ftesting-international-air-travelers.html"
+                }
+              >
+                <u>Frequently Asked Questions</u>
+              </Anchor>
               <br />
               <br />
               *Above regulations are current as of May 2022 and are subjected to

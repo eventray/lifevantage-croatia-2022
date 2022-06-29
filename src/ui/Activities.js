@@ -52,11 +52,11 @@ export function Activities() {
                   <strong> Date:</strong> Sunday, September 11th
                   <br />
                   <strong> Time:</strong> 10:00am – 2:00pm <br />
-                  <strong>Where to meet:</strong>
-                  Sun Gardens Resort Port at 9:45am <br />
+                  <strong>Where to meet: </strong>
+                  Sun Gardens Resort Port at <strong>9:45am</strong> <br />
                   <strong>Duration:</strong> This sail is 4 hours
                   <br />
-                  <strong> What to bring:</strong>
+                  <strong> What to bring: </strong>
                   Causal wear, hat camera, sunscreen, towels & swimsuit
                   <br /> and small cash bills for bar on the island.
                 </p>
@@ -168,12 +168,12 @@ export function Activities() {
                   <strong> Date:</strong> Monday, September 12th
                   <br />
                   <strong> Time:</strong> 8:30am – 12:30pm <br />
-                  <strong>Where to meet:</strong>
-                  Sun Gardens Ballroom at 8:30am. <br />
+                  <strong>Where to meet: </strong>
+                  Sun Gardens Ballroom at <strong>8:30am</strong>. <br />
                   <strong>Duration:</strong> Plan on being with the group for 4
                   hours
                   <br />
-                  <strong> What to bring:</strong>
+                  <strong> What to bring: </strong>
                   Comfortable walking shoes, sunglasses & hat
                 </p>
                 <br />

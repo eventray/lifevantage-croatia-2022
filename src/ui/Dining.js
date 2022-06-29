@@ -55,7 +55,7 @@ export function Dining() {
                   vitality, sports, wine and beach bars provide a great chance
                   to unwind and enjoy a refreshment in a lovely ambience.
                 </p>
-                <br />
+
                 <p>
                   Nothing beats slow sailing on historic ships across the
                   turquoise Adriatic Sea in the Dubrovnik archipelago waters.{" "}

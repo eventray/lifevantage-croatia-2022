@@ -23,8 +23,6 @@ export function Accommodations() {
           >
             <h2 className={cx(gus.textCenter)}>Sun Gardens Dubrovnik </h2>
           </Anchor>
-          <br />
-          <br />
           <div
             className={cx(
               styles.flex,
@@ -103,7 +101,10 @@ export function Accommodations() {
                     Ground Transportation (to/from Dubrovnik Airport & Sun
                     Gardens) on program dates. (September 10 – 15th){" "}
                   </li>
-                  <li>Hotel Room Accommodations for Two in a Deluxe Room</li>
+                  <li>
+                    Hotel Room Accommodations for <strong>Two</strong> in a
+                    Deluxe Room
+                  </li>
                   <li>Daily Breakfast at Sun Gardens Resort</li>
                   <li>
                     LifeVantage Group Meals (Welcome Reception & Farewell
