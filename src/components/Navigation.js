@@ -8,6 +8,7 @@ import { useLocation } from "react-router-dom";
 import logo from "../img/Logo.png";
 import burger from "../img/burger.png";
 
+import gus from "../scss/gus.module.scss";
 import cx from "classnames";
 import styles from "../scss/navigation.module.scss";
 
@@ -102,15 +103,15 @@ class Navigation extends React.Component {
           styles.navigation
         )}
       >
-        {/* <a
+        <a
           className={cx(styles.secondaryBtn, styles.btn, gus.floatRight)}
           style={{}}
-          href="#"
+          href="https://reg.eventray.com/r/lifevantage/be7894"
           target={"_blank"}
           rel={"noopener noreferrer"}
         >
           Register
-        </a> */}
+        </a>
         <MediaQuery query="(min-width: 1161px)">
           <div>{this.renderNavigation()}</div>
         </MediaQuery>

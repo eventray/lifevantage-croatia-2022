@@ -42,6 +42,7 @@ export function Overlay({ title }) {
             backgroundImage: `url(${image.src})`,
             // backgroundPosition: image.position,
             backgroundSize: "100% 100%",
+            marginTop: "68px",
           }}
         />
         <div className={cx(styles.negativeMargin, styles.landingOverlay)} />
