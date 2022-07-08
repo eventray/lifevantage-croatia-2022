@@ -49,8 +49,8 @@ export function Dining() {
               >
                 <p>
                   Dine at one of the restaurants at Sun Gardens Dubrovnik
-                  offering a mix of Dalmatian, Mediterranean, and international
-                  culinary experiences.  The choice of bars offers a diverse mix
+                  offering a mix of Dalmatian, Mediterranean, and International
+                  Culinary experiences.  The choice of bars offers a diverse mix
                   of venues for every occasion. Poolside, evening, relax,
                   vitality, sports, wine and beach bars provide a great chance
                   to unwind and enjoy a refreshment in a lovely ambience.

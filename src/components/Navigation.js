@@ -85,7 +85,7 @@ class Navigation extends React.Component {
             <Link {...linkProps("/faqs")}>FAQs</Link>
           </li>
           <li>
-            <Link {...linkProps("/terms")}>Terms & Condition</Link>
+            <Link {...linkProps("/terms")}>Terms & Conditions</Link>
           </li>
         </ul>
       </>

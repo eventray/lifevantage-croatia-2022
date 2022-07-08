@@ -48,18 +48,19 @@
     .landingBackground {
       margin-top: 8vh;
       min-height: 250px;
-      // background-size: 100% 20%;
+      background-position: center;
       background-repeat: no-repeat;
+      background-size: cover;
     }
   }
   @media (min-width: 450px) {
     max-height: 640px;
-
     .landingBackground {
       min-height: 50vh;
-      background: url("../img/Welcome_original.jpg") no-repeat;
-      // background-size: 100% 95%;
+      background: url("../img/Welcome_original.jpg");
+      background-position: center;
       background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 

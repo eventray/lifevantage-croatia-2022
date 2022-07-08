@@ -93,7 +93,7 @@ export function rooms() {
             </p>
           </p>
           <br />
-          <h3>Additional Guests & Additional Nights information</h3>
+          <h3>Additional Guests & Additional Nights Information</h3>
           <h4>Additional Guests: </h4>
           <p style={{ textAlign: "left" }}>
             <strong>Includes: </strong>
@@ -127,7 +127,8 @@ export function rooms() {
           <h4>Additional Nights:</h4>
           <p>
             The LifeVantage Group hotel rate will be extended for up to three
-            nights before and after our program dates.
+            nights before and after our program dates. (Requests will be based
+            upon the hotel’s availability)
           </p>
           <br />
           <p>
@@ -165,8 +166,7 @@ export function rooms() {
             <Anchor target="_blank" href={"mailto: croatiarooms@museem.com"}>
               croatiarooms@museem.com{" "}
             </Anchor>
-            <strong>NO LATER than Friday, August 1st 2022.</strong>
-            <br /> (Requests will be based upon the hotel’s availability){" "}
+            <strong>NO LATER than Monday, August 1 2022.</strong>
           </p>
         </div>
       </div>

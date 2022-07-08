@@ -45,7 +45,7 @@ export function Faqs() {
               <br />
               <br />
               *PLEASE NOTE: LIFEVANTAGE WILL NO LONGER REIMBURSE QUALIFIERS FOR
-              FLIGHTS BOOKED ON THEIR OWN.”
+              FLIGHTS BOOKED ON THEIR OWN.
               <br />
               <br />
               *IF YOU BOOK YOUR GUEST’S FLIGHT ON YOUR OWN AND YOU WANT
@@ -54,14 +54,27 @@ export function Faqs() {
               <Anchor href={"mailto:croatiarooms@museem.com"}>
                 CROATIAROOMS@MUSEEM.COM
               </Anchor>{" "}
-              BY <strong>MONDAY AUGUST 1st.</strong>
+              BY <strong>MONDAY, AUGUST 1st.</strong>
             </p>
             <br />
             <h4>Transportation:</h4>
             <p>
               LifeVantage will provide transportation for you and your guest
-              from the Dubrovnik airport to the hotel. 
-              <br />
+              to/from Dubrovnik Airport and Sun Gardens hotel on program dates.
+              (September 10-15th)
+              <ul style={{ marginLeft: "30px" }}>
+                <li>
+                  <strong>Upon arrival into Dubrovnik:</strong> Proceed to the
+                  terminal exit where Ventula Travel DMC will greet you, wearing
+                  LifeVantage branded shirts and holding a sign displaying the
+                  LifeVantage Croatia Incentive logo.
+                </li>
+                <li>
+                  <strong>Upon departure from Sun Gardens:</strong> Transfer
+                  notices will be provided to you. (Plan on being ready to leave
+                  the Resort 2-3 hours prior to your returning flight).
+                </li>
+              </ul>
               <br />
               For those arriving early, extending their trips, or choosing to
               fly in and out of a different airport, please make separate
@@ -69,12 +82,12 @@ export function Faqs() {
               <ul style={{ marginLeft: "30px" }}>
                 <li>
                   <strong>Please Note:</strong>The Sun Gardens Dubrovnik Resort
-                  is 45 minutes from the Dubrovnik Airport, is approximately 60
+                  is 45 minutes from the Dubrovnik Airport, approximately 60
                   Euro for a Taxi.{" "}
                   <ul style={{ marginLeft: "20px" }}>
                     <li>
                       <strong>Old Town</strong> is 20 minutes from the Sun
-                      Gardens Resort and is 40 Euro Taxi.{" "}
+                      Gardens Resort and is approximately 40 Euro for a Taxi.
                     </li>
                   </ul>
                 </li>
@@ -243,14 +256,23 @@ export function Faqs() {
                 color: "#012856",
               }}
             >
-              If I’ve earned The Trip of A lifetime Incentive Croatia incentive
-              trip but cannot go, can I receive a substitute reward or allow
-              someone to go in my place?{" "}
+              <strong>
+                If I’ve earned The Trip of A lifetime Incentive Croatia
+                incentive trip but cannot go, can I receive a substitute reward
+                or allow someone to go in my place?
+              </strong>
             </h3>
             <p>
               The trip is non-transferable. However, if you cannot attend, you
               are able to receive a $3,000USD deposit into your hyperwallet
-              account.
+              account. Please be aware that if you register for the trip and for
+              some reason you are not able to attend, you need to let us know by
+              emailing{" "}
+              <Anchor href={"mailto: events@lifevantage.com"}>
+                events@lifevantage.com
+              </Anchor>{" "}
+              <strong>NO LATER than August 1st</strong> or you will forfeit the
+              $3,000USD alternative.
             </p>
             <br />
             <h3
@@ -272,32 +294,18 @@ export function Faqs() {
               How will COVID-19 regulations affect the trip?{" "}
             </h3>
             <p>
-              <strong> PLEASE NOTE:</strong>
-              <br />
-              <br /> <strong>Upon Entry:</strong> Croatia removed all border
-              crossing restrictions; you do not have to provide a negative
-              COVID-19 test or show proof of vaccination for entry to Croatia.
+              <strong>Upon Entry:</strong> Croatia removed all border crossing
+              restrictions; you do not have to provide a negative COVID-19 test
+              or show proof of vaccination for entry to Croatia.
               <br />
               <br />
-              <strong> Upon Departure:</strong> All airline passengers to the
-              <strong> United States ages two years and older, </strong>
-              regardless of vaccination status or citizenship, must provide a
-              negative COVID-19 viral test taken within one calendar day of
-              travel.  Alternatively, travelers to the United States may provide
-              documentation from a licensed health care provider of having
-              recovered from COVID-19 in the 90 days preceding travel.  Check
-              the CDC website for additional information and{" "}
-              <Anchor
-                href={
-                  "https://www.cdc.gov/coronavirus/2019-ncov/travelers/international-travel/index.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Ftravelers%2Ftesting-international-air-travelers.html"
-                }
-              >
-                <u>Frequently Asked Questions</u>
-              </Anchor>
-              <br />
-              <br />
-              *Above regulations are current as of May 2022 and are subjected to
-              change.{" "}
+              <p>
+                <strong>Upon Departure:</strong> A negative COVID-19 test is no
+                longer required to return to the United States. For
+                International Markets, please research travel requirements for
+                returning to your home country, so you are aware of any that may
+                apply.
+              </p>
             </p>
             <br />
           </div>

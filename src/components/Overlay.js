@@ -6,11 +6,11 @@ import cx from "classnames";
 import accomodation from "../img/Accommodations_original.jpg";
 import activities from "../img/Activities_original.jpg";
 import dining from "../img/Dining_original.jpg";
-import legacy from "../img/legacy.png";
+import legacy from "../img/legacy.jpg";
 import faqs from "../img/FAQ_original.jpg";
 import schedule from "../img/Schedule_original.jpg";
 import terms from "../img/TandC_original.jpg";
-import rooms from "../img/Rooms.png";
+import rooms from "../img/Rooms.jpg";
 
 export function Overlay({ title }) {
   const { pathname } = useLocation();
@@ -40,8 +40,6 @@ export function Overlay({ title }) {
           className={styles.landingBackground}
           style={{
             backgroundImage: `url(${image.src})`,
-            // backgroundPosition: image.position,
-            backgroundSize: "100% 100%",
             marginTop: "68px",
           }}
         />

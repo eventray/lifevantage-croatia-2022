@@ -2,7 +2,6 @@ import Countdown from "../components/Countdown";
 import React from "react";
 import cx from "classnames";
 import styles from "../scss/app.module.scss";
-import logo from "../img/Logo.png";
 
 function Home() {
   return (
@@ -17,7 +16,6 @@ function Home() {
             className={cx(styles.tag, styles.time)}
             style={{ width: "fit-content", display: "flex", margin: " auto" }}
           >
-            {" "}
             Registration Closes: August 1, 2022{" "}
           </span>
           <br />
@@ -44,23 +42,15 @@ function Home() {
             }}
           />
         </div>
-        <div>
-          <div style={{ minWidth: "290px", margin: "0px auto" }}>
-            <img
-              style={{ width: "100%", maxHeight: "500px" }}
-              src={logo}
-              alt={"logo"}
-              className={styles.margin}
-            />
-          </div>
-        </div>
+        <br/>
+        <br/>
         <h1
-          style={{ textAlign: "center", marginTop: "-20px", color: "#002856 " }}
+          style={{ textAlign: "center", color: "#002856 " }}
         >
           Welcome{" "}
         </h1>
         <div>
-          <p
+          <h2
             style={{
               textAlign: "center",
               fontWeight: "bold",
@@ -81,7 +71,7 @@ function Home() {
             Chief Executive Officer
             <br />
             <br />{" "}
-          </p>
+          </h2>
         </div>
         <div>
           <h3>A Little History on Sun Gardens Dubrovnik:</h3>

@@ -104,8 +104,8 @@ export function Activities() {
                 <br />
                 <p>
                   If you are interested in this Boat Tour, make sure to add it
-                  during registration. Deadline to sign up for this activity is
-                  NO LATER than <strong>Monday, August 1st.</strong>
+                  during registration. Deadline to sign up for this activity is{" "}
+                  <strong>NO LATER than Monday, August 1st.</strong>
                 </p>
                 <br />
                 <p>
@@ -207,10 +207,11 @@ export function Activities() {
           </p>
           <br />
           <p>
-            Click the below link to explore and book the options that are
-            packages given exclusively to LifeVantage Distributors. Whether you
-            and your team want to go Kayak around the islands, explore the Blue
-            Cave, or take a day trip to the UNESCO World Heritage Site of
+            <strong>Click the below link</strong> and enter the password{" "}
+            <strong>lifevantage</strong> to explore and book the options that
+            are packages given exclusively to LifeVantage Distributors. Whether
+            you and your team want to go Kayak around the islands, explore the
+            Blue Cave, or take a day trip to the UNESCO World Heritage Site of
             Mostar.
           </p>
           <br />
@@ -223,7 +224,7 @@ export function Activities() {
             target="_blank"
             href="https://ventula-travel.com/private-day-tours/croatia/dubrovnik-region/"
           >
-            {" "}
+            <br />
             <h2
               style={{
                 display: "flex",
@@ -232,14 +233,13 @@ export function Activities() {
                 textAlign: "center",
               }}
             >
-              <br />
-              LifeVantage Exclusive Activity Options
+              <strong>LifeVantage Exclusive Activity Options</strong>
             </h2>
           </Anchor>
           <p>
             <strong>Please Note: </strong>These additional activities are at
             your own expense and are only available to book on your free time
-            outside of scheduled LifeVantage Group.{" "}
+            outside of the scheduled LifeVantage Group.
           </p>
         </div>
       </div>

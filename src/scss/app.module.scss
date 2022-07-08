@@ -51,22 +51,26 @@ p {
 
   .section1 {
     @media (max-width: 450px) {
-      max-height: 200px;
+      max-height: 250px;
       margin-top: 65px;
       .landingBackground {
         margin-top: 6vh;
-        min-height: 640px;
-        background: url("../img/Welcome_original.jpg") no-repeat;
-        background-size: 100% 20%;
+        min-height: 250px;
+        background: url("../img/Welcome_original.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
     }
     @media (min-width: 450px) {
       max-height: 640px;
       margin-top: 65px;
       .landingBackground {
-        min-height: 640px;
-        background: url("../img/Welcome_original.jpg") no-repeat;
-        background-size: 100% 95%;
+        min-height: 50vh;
+        background: url("../img/Welcome_original.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
     }
 
@@ -122,6 +126,7 @@ p {
   }
 
   .section2 {
+    padding-top: 1.5rem;
     h2 {
       font-size: $secondaryHeadingFontSize;
       font-family: $font-main-content-heading;

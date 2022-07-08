@@ -21,7 +21,12 @@ export function Accommodations() {
             target="_blank"
             href={"https://www.dubrovniksungardens.com/en"}
           >
-            <h2 className={cx(gus.textCenter)}>Sun Gardens Dubrovnik </h2>
+            <h2
+              className={cx(gus.textCenter)}
+              style={{ textDecoration: "underline" }}
+            >
+              Sun Gardens Dubrovnik{" "}
+            </h2>
           </Anchor>
           <div
             className={cx(
@@ -73,7 +78,7 @@ export function Accommodations() {
                   <li>Marco Polo club for kids</li>
                   <li>Supermarket and Retail shopping</li>
                   <li>
-                    Nearby Hiking and running paths to enjoy the Coastal
+                    Nearby hiking and running paths to enjoy the Coastal
                     panorama and scenic Countryside{" "}
                   </li>
                   <li>
@@ -125,36 +130,38 @@ export function Accommodations() {
                     Three Swimming Pools and Beach
                     <ul style={{ marginLeft: "20px" }}>
                       <li>
-                        Sunset Pool: The Sunset Pool is a perfect place to
-                        lounge shaded from the rays, watching the sun set over
-                        the vast blueness of the horizon. With various water
-                        features, a dedicated children’s pool and a bar, this
-                        sea-view pool offers something for everybody.
+                        <strong>Sunset Pool:</strong> The Sunset Pool is a
+                        perfect place to lounge shaded from the rays, watching
+                        the sun set over the vast blueness of the horizon. With
+                        various water features, a dedicated children’s pool and
+                        a bar, this sea-view pool offers something for
+                        everybody.
                       </li>
                       <li>
-                        Marina Pool: This adult-friendly pool is a perfect
-                        sanctuary when what you desire is a moment of peace and
-                        tranquility. Revel in the Zen-like sounds of the
-                        surroundings and let your worries disappear.
-                      </li>
-
-                      <li>
-                        Lemonia Pool: This Pool is a perfect family friendly
-                        spot to enjoy your summer holiday splashing around in
-                        the sun. Grab freshly made smoothies, ice-creams and
-                        snacks to keep both the energy and the spirits high and
-                        have fun, fun, fun. The little ones will enjoy
-                        themselves in the children's pool, while the grown-ups
-                        can find deeper waters in the main pool area.
+                        <strong>Marina Pool:</strong> This adult-friendly pool
+                        is a perfect sanctuary when what you desire is a moment
+                        of peace and tranquility. Revel in the Zen-like sounds
+                        of the surroundings and let your worries disappear.
                       </li>
 
                       <li>
-                        Natural Pebble Beach: Our beach is ideal for a whole
-                        family, with plenty of space for your towels and
-                        accessories, and easy access to the sea for even the
-                        tiniest feet. It is surrounded by lush, untouched
-                        nature, brimming with the true charm of the old
-                        Mediterranean.
+                        <strong>Lemonia Pool:</strong> This Pool is a perfect
+                        family friendly spot to enjoy your summer holiday
+                        splashing around in the sun. Grab freshly made
+                        smoothies, ice-creams and snacks to keep both the energy
+                        and the spirits high and have fun, fun, fun. The little
+                        ones will enjoy themselves in the children's pool, while
+                        the grown-ups can find deeper waters in the main pool
+                        area.
+                      </li>
+
+                      <li>
+                        <strong>Natural Pebble Beach:</strong> Our beach is
+                        ideal for a whole family, with plenty of space for your
+                        towels and accessories, and easy access to the sea for
+                        even the tiniest feet. It is surrounded by lush,
+                        untouched nature, brimming with the true charm of the
+                        old Mediterranean.
                       </li>
                     </ul>
                   </li>
@@ -168,8 +175,8 @@ export function Accommodations() {
                         outdoor activities at the resort.{" "}
                         <ul style={{ marginLeft: "20px" }}>
                           <li>
-                            Gym, Wall -climbing, squash, badminton and
-                            basketball court.
+                            Gym, wall-climbing, squash, badminton and basketball
+                            court.
                           </li>
                         </ul>{" "}
                       </li>
