@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/lifevantage-croatia-2022/static/css/main.f31a0d49.css",
+    "main.js": "/lifevantage-croatia-2022/static/js/main.bdc6ac3b.js",
+    "static/media/1.png": "/lifevantage-croatia-2022/static/media/1.33b68b841ce8c649b71e.png",
+    "static/media/TandC_original.jpg": "/lifevantage-croatia-2022/static/media/TandC_original.c607b346fb69e6890948.jpg",
+    "static/media/4.png": "/lifevantage-croatia-2022/static/media/4.fe7af7314dfd025aae16.png",
+    "static/media/9.png": "/lifevantage-croatia-2022/static/media/9.daded3340328eb88ec37.png",
+    "static/media/2.png": "/lifevantage-croatia-2022/static/media/2.4403ab3086f4fdb6cb16.png",
+    "static/media/3.png": "/lifevantage-croatia-2022/static/media/3.27335b4499ef47342e13.png",
+    "static/media/5.png": "/lifevantage-croatia-2022/static/media/5.ca4ffdc00d78853e5dcb.png",
+    "static/media/6.png": "/lifevantage-croatia-2022/static/media/6.d54996391621f7e35627.png",
+    "static/media/Schedule_original.jpg": "/lifevantage-croatia-2022/static/media/Schedule_original.2a07a4d1bbbbeb2e6a6d.jpg",
+    "static/media/FAQ_original.jpg": "/lifevantage-croatia-2022/static/media/FAQ_original.6dcd375d28bc9050fa07.jpg",
+    "static/media/7.png": "/lifevantage-croatia-2022/static/media/7.06cdcfec1711cf940b3b.png",
+    "static/media/Activities_original.jpg": "/lifevantage-croatia-2022/static/media/Activities_original.c9261695fb80ed09c60d.jpg",
+    "static/media/10.png": "/lifevantage-croatia-2022/static/media/10.d6a1dc4d44fa8071e997.png",
+    "static/media/Welcome_original.jpg": "/lifevantage-croatia-2022/static/media/Welcome_original.6dd186f9c3a501fa1276.jpg",
+    "static/media/legacy.png": "/lifevantage-croatia-2022/static/media/legacy.989db6853ff25687dcb4.png",
+    "static/media/8.png": "/lifevantage-croatia-2022/static/media/8.589df0c66379b1e7816f.png",
+    "static/media/Dining_original.jpg": "/lifevantage-croatia-2022/static/media/Dining_original.ba7148c76a1d6be352a8.jpg",
+    "static/media/Logo.png": "/lifevantage-croatia-2022/static/media/Logo.18cd2404275112cc9c37.png",
+    "static/media/Rooms.jpg": "/lifevantage-croatia-2022/static/media/Rooms.cdc6010329c011347acd.jpg",
+    "static/media/Accommodations_original.jpg": "/lifevantage-croatia-2022/static/media/Accommodations_original.3aee052fb873dbb6b423.jpg",
+    "static/media/legacy.jpg": "/lifevantage-croatia-2022/static/media/legacy.90d2a00d3d5217ac5830.jpg",
+    "static/media/Proxima Nova Regular.ttf": "/lifevantage-croatia-2022/static/media/Proxima Nova Regular.e3143307b178239510bb.ttf",
+    "static/media/Legacy-Logo.png": "/lifevantage-croatia-2022/static/media/Legacy-Logo.5a21bd474507b5fca896.png",
+    "index.html": "/lifevantage-croatia-2022/index.html",
+    "main.f31a0d49.css.map": "/lifevantage-croatia-2022/static/css/main.f31a0d49.css.map",
+    "main.bdc6ac3b.js.map": "/lifevantage-croatia-2022/static/js/main.bdc6ac3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f31a0d49.css",
+    "static/js/main.bdc6ac3b.js"
+  ]
+}
