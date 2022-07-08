@@ -222,7 +222,7 @@ export function Activities() {
           </p>
           <Anchor
             target="_blank"
-            href="https://ventula-travel.com/private-day-tours/croatia/dubrovnik-region/"
+            href="https://ventula-travel.com/private-day-tours/life-vantage-private-day-tours/"
           >
             <br />
             <h2
@@ -231,6 +231,7 @@ export function Activities() {
                 justifyContent: "center",
                 alignItems: "center",
                 textAlign: "center",
+                textDecoration: 'underline'
               }}
             >
               <strong>LifeVantage Exclusive Activity Options</strong>

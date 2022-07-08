@@ -63,10 +63,6 @@ export function Legacy() {
             manpower to this effort.
             <br />
             <br />
-            Together, we can make a difference for those who have been affected
-            by the conflict in Ukraine.
-            <br />
-            <br />
             <div>
               <img
                 style={{
@@ -79,33 +75,40 @@ export function Legacy() {
                 className={styles.margin}
               />
             </div>
+            <br />
+            Together, we can make a difference for those who have been affected
+            by the conflict in Ukraine.
           </p>
-          <br />
-          <h2
-            style={{
-              textAlign: "center",
-            }}
-          >
-            Please{" "}
-            <Anchor
-              target="_blank"
-              href="https://www.lifevantage.com/us-en/shop/lifevantage-legacy"
-            >
-              <u> Donate</u>{" "}
-            </Anchor>
-            Today!
-          </h2>
-          <div>
-            <img
+          <div  style={{
+                marginTop: "5rem"
+              }}>
+            <h2
+
               style={{
-                minWidth: "300px",
-                minHeight: "280px",
+                textAlign: "center", margin: 0
               }}
-              src={logo}
-              width="70%"
-              alt={"San Marco Hotel"}
-              className={styles.margin}
-            />
+            >
+              Please{" "}
+              <Anchor
+                target="_blank"
+                href="https://www.lifevantage.com/us-en/shop/lifevantage-legacy"
+              >
+                <u> Donate</u>{" "}
+              </Anchor>
+              Today!
+            </h2>
+            <div>
+              <img
+                style={{
+                  minWidth: "300px",
+                  minHeight: "280px",
+                }}
+                src={logo}
+                width="70%"
+                alt={"San Marco Hotel"}
+                className={styles.margin}
+              />
+            </div>
           </div>
         </div>
       </div>
