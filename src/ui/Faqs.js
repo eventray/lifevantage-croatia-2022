@@ -257,22 +257,24 @@ export function Faqs() {
               }}
             >
               <strong>
-                If I’ve earned The Trip of A lifetime Incentive Croatia
-                incentive trip but cannot go, can I receive a substitute reward
-                or allow someone to go in my place?
+                If I’ve earned the Trip of a Lifetime Incentive in Croatia but
+                cannot go, can I receive a substitute reward or allow someone to
+                go in my place?
               </strong>
             </h3>
             <p>
               The trip is non-transferable. However, if you cannot attend, you
               are able to receive a $3,000USD deposit into your hyperwallet
-              account. Please be aware that if you register for the trip and for
-              some reason you are not able to attend, you need to let us know by
-              emailing{" "}
-              <Anchor href={"mailto: events@lifevantage.com"}>
-                events@lifevantage.com
-              </Anchor>{" "}
-              <strong>NO LATER than August 1st</strong> or you will forfeit the
-              $3,000USD alternative.
+              account.
+              <br />
+              <br /> If you register for the trip and cannot attend, you must
+              cancel<strong> NO LATER than August 1, 2022,</strong> by emailing{" "}
+              <Anchor href={"mailto:events@lifevantage.com"}>
+                events@lifevantage.com{" "}
+              </Anchor>
+              in order to receive the $3,000USD alternative prize. Following
+              August 1, there will be NO EXCEPTIONS on receiving the cash offer
+              for any reason including travel restrictions, medical issues, etc
             </p>
             <br />
             <h3
@@ -299,15 +301,29 @@ export function Faqs() {
               or show proof of vaccination for entry to Croatia.
               <br />
               <br />
-              <p>
-                <strong>Upon Departure:</strong> A negative COVID-19 test is no
-                longer required to return to the United States. For
-                International Markets, please research travel requirements for
-                returning to your home country, so you are aware of any that may
-                apply.
-              </p>
+              <strong>Upon Departure:</strong> A negative COVID-19 test is no
+              longer required to return to the United States. For International
+              Markets, please research travel requirements for returning to your
+              home country, so you are aware of any that may apply.
+              <br />
+              <br /> <strong>Please Note:</strong> All LifeVantage Distributors
+              attending the ‘LifeVantage Trip of Lifetime’ in Croatia will be
+              responsible for all risks associated with travel, including costs
+              and restrictions surrounding Covid-19 and variants. All attendees
+              will be responsible for researching and following the guidelines
+              and travel restrictions related to their country of origin, i.e.,
+              vaccination, negative testing requirements, etc. The CDC suggests
+              that all International travel poses additional risks, and while a
+              vaccine to enter Croatia is not required, even fully vaccinated
+              travelers might be at an increased risk for getting and possible
+              spreading some Covid-19 variants. By checking the box during
+              registration, participants agree to assume all risks (medical and
+              financial) associated with travel and in addition, will
+              self-monitor signs and symptoms of Covid-19 (and its variants) and
+              remove themselves from group activities if any Covid symptoms
+              occur. LifeVantage reserves the right to remove anyone who had
+              contracted COVID-19 and variants from group activities and events
             </p>
-            <br />
           </div>
         </div>
       </div>
