@@ -153,7 +153,7 @@ export function rooms() {
           <p style={{ textAlign: "right" }}>
             <strong>Deluxe Room</strong> with 1 King Bed (crib allowed)
             <br />
-            <strong>Double Occupancy: </strong>$350 USD per night (includes
+            <strong>Double Occupancy: </strong>$289.00 USD per night (includes
             taxes and fees)
             <br />
             <i>*Includes resort daily breakfast </i>
