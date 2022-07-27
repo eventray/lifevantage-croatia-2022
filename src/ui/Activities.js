@@ -98,8 +98,9 @@ export function Activities() {
                 </ul>
                 <br />
                 <p>
-                  <strong> Cost per person: $135.00 </strong>(Package arranged
-                  exclusively for LifeVantage Distributors)
+                  Packaged price of <strong>$135.00 per person </strong>(5 &
+                  older) arranged exclusively for LifeVantage Distributors.
+                  <br /> *Children (0 - 4) Free
                 </p>
                 <br />
                 <p>
@@ -231,7 +232,7 @@ export function Activities() {
                 justifyContent: "center",
                 alignItems: "center",
                 textAlign: "center",
-                textDecoration: 'underline'
+                textDecoration: "underline",
               }}
             >
               <strong>LifeVantage Exclusive Activity Options</strong>
