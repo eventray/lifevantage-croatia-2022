@@ -6,8 +6,7 @@ import { Anchor } from "../components/Anchor";
 
 import { Layout } from "../components/Layout";
 
-import map from "../img/accommodations/map.png";
-import pdf from "../img/accommodations/resort.pdf";
+import one from "../img/accommodations/1.png";
 
 export function Accommodations() {
   return (
@@ -17,12 +16,18 @@ export function Accommodations() {
           className={styles.container}
           style={{ borderRadius: "9px", marginTop: "20px" }}
         >
-          <h2 className={cx(gus.textCenter)}>
-            AWARD-WINNING WALT DISNEY WORLD SWAN & DOLPHIN RESORT{" "}
-          </h2>
-
-          <br />
-          <br />
+          {" "}
+          <Anchor
+            target="_blank"
+            href={"https://www.dubrovniksungardens.com/en"}
+          >
+            <h2
+              className={cx(gus.textCenter)}
+              style={{ textDecoration: "underline" }}
+            >
+              Sun Gardens Dubrovnik{" "}
+            </h2>
+          </Anchor>
           <div
             className={cx(
               styles.flex,
@@ -32,132 +37,227 @@ export function Accommodations() {
             )}
           >
             <div style={{ marginLeft: "30px", textAlign: "left" }}>
-              <p style={{ textAlign: "left" }}>
-                Enjoy 4 nights at the Dolphin hotel! Just 20 minutes from the Orlando
-                airport, it is centrally located in the heart of Walt Disney
-                World.
-                <br />
-                <br /> Besides being just a short distance away from the theme
-                parks, the Dolphin hotel is also home to a number of fun
-                recreational activities. From pristine pools and beaches, to the
-                kids-only Camp Dolphin, young guests are kept entertained even
-                after they return from a day at the park. The Dolphin hotel is
-                also located near many activities that parents can enjoy such as
-                spending a relaxing afternoon at the Mandara Spa or playing a
-                round of golf on any one of the four championship Walt Disney
-                World golf courses.
-                <br />
-                <br />
-                The Swan & Dolphin Resort offers the following conveniences to
-                help make your stay at the Disney resort worry-free:
-                <br />
-                <br />
-                <ul style={{ marginLeft: "30px" }}>
-                  <li>Two on-site Disney planning centers</li>
-                  <li>Specialty shops</li>
-                  <li>Coin-operated launderette</li>
-                  <li>
-                    Four ATM machines (two in the Dolphin and two at the Swan)
-                  </li>
-                  <li>Two business centers</li>
-                  <li>Concierge services</li>
-                  <li>24-hour bell stand</li>
-                  <li>Two airline boarding pass kiosks</li>
-                  <li>Self or valet parking</li>
-                </ul>
-                <br />
-                <br />
-                Resort Services Package:
-                <ul style={{ marginLeft: "30px" }}>
-                  <li> Complimentary bottled water replenished daily </li>
-                  <li> High speed internet access </li>
-                  <li> Unlimited admission to the fitness centers </li>
-                  <li>
-                    $30 off spa services of $200 or more at The Mandara Spa
-                    during each day of your visit (1) offer per room per night
-                  </li>
-                  <li> Complimentary 30-minute Swan Paddle Boat ride</li>
-                </ul>
-                <br />
-                <u>Parking</u>
-                <br />
-                Valet Parking Rates:
-                <br />
-                <p style={{ marginLeft: "30px" }}>
-                  Day Use Valet - $39.00 plus tax each exit
-                  <br />
-                  Overnight Valet - $39.00 plus tax per day
-                </p>
-                <br />
-                Self-Parking Rates:
-                <br />
-                <p style={{ marginLeft: "30px" }}>
-                  Day Parking - $29.00 plus tax <br />
-                  Overnight Guest Parking - $29.00 plus tax per day{" "}
-                </p>
-                <br />
-                Located in the heart of the most magical place on earth, the
-                Walt Disney World Swan & Dolphin Resort provides a truly
-                extraordinary backdrop for your vacation!
+              <p>
+                Located in the small village of Orašac, only 11 km from
+                Dubrovnik city centre. It is easy to reach from all directions
+                and is accessible whether you travel by plane, car or ferry.
               </p>
-            </div>
-          </div>
-
-          <h2>Resort Map </h2>
-          <div
-            className={cx(
-              styles.flex,
-              styles.reverse,
-              styles.margin,
-              gus.padding1
-            )}
-            style={{ justifyContent: "center" }}
-          >
-            <div className={cx(styles.margin5)}>
-              <Anchor target="_blank" href={pdf}>
-                <div style={{ minWidth: "320px" }}>
+              <div className={cx(styles.flex, styles.reverse, styles.margin)}>
+                <div style={{ width: "320px" }}>
                   <img
-                    style={{ width: "100%", maxHeight: "500px" }}
-                    src={map}
+                    style={{ width: "320px", height: "280px" }}
+                    height="400px"
+                    src={one}
                     alt={"San Marco Hotel"}
                     className={styles.margin}
                   />
-                  <p
-                    style={{
-                      cursor: "pointer",
-                      textDecoration: "none",
-
-                      color: "#2696D4",
-                    }}
-                  >
-                    *Click to open PDF
+                </div>
+                <div
+                  className={styles.marginLeft}
+                  style={{ width: "100%", textAlign: "left" }}
+                >
+                  <p style={{ textAlign: "left" }}>
+                    A hidden beachfront oasis, a lush garden basking in the
+                    sounds and fragrances of the Mediterranean. Elegant and
+                    spacious accommodation will make for an ideal home away from
+                    home, set in the middle of lush nature, a few meters away
+                    from the inviting Adriatic shore.
                   </p>
                 </div>
-              </Anchor>{" "}
+              </div>
+              <div>
+                <br />
+                <h3>Resort Features:</h3>
+                <ul>
+                  <li>Diverse selection of restaurants and bars</li>
+                  <li>Three swimming pools and natural pebble beach</li>
+                  <li>
+                    Sports center offering more than a dozen sports and
+                    activities
+                  </li>
+                  <li>Marco Polo club for kids</li>
+                  <li>Supermarket and Retail shopping</li>
+                  <li>
+                    Nearby hiking and running paths to enjoy the Coastal
+                    panorama and scenic Countryside{" "}
+                  </li>
+                  <li>
+                    Spa and Wellness Oasis, Gourmet Experiences, such as Wine &
+                    Dine & Mixology Class & Outdoor and Nature cycling tours (At
+                    an additional cost){" "}
+                    <ul style={{ marginLeft: "20px" }}>
+                      <li>
+                        <Anchor
+                          target="_blank"
+                          href={
+                            "https://www.dubrovniksungardens.com/datastore/filestore/11/SUN_GARDENS_MAP_WEB.pdf "
+                          }
+                        >
+                          Download Property Map
+                        </Anchor>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <br />
+                <h3>Included With Your Stay</h3>
+                <ul>
+                  <li>
+                    Ground Transportation (to/from Dubrovnik Airport & Sun
+                    Gardens) on program dates. (September 10 – 15th){" "}
+                  </li>
+                  <li>
+                    Hotel Room Accommodations for <strong>Two</strong> in a
+                    Deluxe Room
+                  </li>
+                  <li>Daily Breakfast at Sun Gardens Resort</li>
+                  <li>
+                    LifeVantage Group Meals (Welcome Reception & Farewell
+                    Dinner)
+                  </li>
+                  <li>
+                    Additional Meals
+                    <ul style={{ marginLeft: "20px" }}>
+                      <li>
+                        LifeVantage will pay for the meals that are not provided
+                        within the program. The money will be deposited into
+                        your hyperwallet account before your departure.{" "}
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    Three Swimming Pools and Beach
+                    <ul style={{ marginLeft: "20px" }}>
+                      <li>
+                        <strong>Sunset Pool:</strong> The Sunset Pool is a
+                        perfect place to lounge shaded from the rays, watching
+                        the sun set over the vast blueness of the horizon. With
+                        various water features, a dedicated children’s pool and
+                        a bar, this sea-view pool offers something for
+                        everybody.
+                      </li>
+                      <li>
+                        <strong>Marina Pool:</strong> This adult-friendly pool
+                        is a perfect sanctuary when what you desire is a moment
+                        of peace and tranquility. Revel in the Zen-like sounds
+                        of the surroundings and let your worries disappear.
+                      </li>
+
+                      <li>
+                        <strong>Lemonia Pool:</strong> This Pool is a perfect
+                        family friendly spot to enjoy your summer holiday
+                        splashing around in the sun. Grab freshly made
+                        smoothies, ice-creams and snacks to keep both the energy
+                        and the spirits high and have fun, fun, fun. The little
+                        ones will enjoy themselves in the children's pool, while
+                        the grown-ups can find deeper waters in the main pool
+                        area.
+                      </li>
+
+                      <li>
+                        <strong>Natural Pebble Beach:</strong> Our beach is
+                        ideal for a whole family, with plenty of space for your
+                        towels and accessories, and easy access to the sea for
+                        even the tiniest feet. It is surrounded by lush,
+                        untouched nature, brimming with the true charm of the
+                        old Mediterranean.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    Sports Center:{" "}
+                    <ul style={{ marginLeft: "20px" }}>
+                      <li>
+                        Challenge yourself and stay active during your stay.
+                        Choose from a large offer of water sports, indoor and
+                        outdoor activities at the resort.{" "}
+                        <ul style={{ marginLeft: "20px" }}>
+                          <li>
+                            Gym, wall-climbing, squash, badminton and basketball
+                            court.
+                          </li>
+                        </ul>{" "}
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Marco Polo Kids Club{" "}
+                    <ul style={{ marginLeft: "20px" }}>
+                      <li>
+                        With specially trained staff on hand at all times, our
+                        Marco Polo Kids Club offers the chance for your children
+                        to enjoy new experiences under the warm Mediterranean
+                        sun.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <br />
+                <h3>Optional Extras:</h3>
+                <ul>
+                  <li>
+                    Wellness and Spa oasis{" "}
+                    <ul style={{ marginLeft: "20px" }}>
+                      <li>
+                        Yes to Beauty offers an integrated beauty program
+                        featuring exclusive professional face and body care
+                        treatments, signature experiences and an ample selection
+                        of massage techniques. Highly trained therapists,
+                        educated in the Wellness Academy, use a range of quality
+                        and luxury wellness products.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Gourmet Experience{" "}
+                    <ul style={{ marginLeft: "20px" }}>
+                      <li>
+                        There are plenty of treats for gastronomy lovers at Sun
+                        Gardens Dubrovnik! Dalmatian cuisine is attracting
+                        increasing international attention and with good reason.
+                        Its secrets lie in its simplicity, the freshness of
+                        ingredients and traditional recipes, passed through
+                        generations.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Outdoor & Nature{" "}
+                    <ul style={{ marginLeft: "20px" }}>
+                      <li>
+                        Explore spectacular views and fascinating sights on one
+                        of our suggested paths. Whether you prefer hiking,
+                        running or cycling, set your own pace and choose the
+                        route that suits you best.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Children’s Sports Academy{" "}
+                    <ul style={{ marginLeft: "20px" }}>
+                      <li>
+                        Sun Gardens Dubrovnik Sports Academy welcomes children
+                        aged 7 to 15. There is no better place for them to take
+                        part in training programs for their favorite sport, like
+                        football, tennis and swimming, or explore so me new
+                        activity like squash or water-sports.
+                        <ul style={{ marginLeft: "20px" }}>
+                          <li>Water Sports Academy</li>
+                          <li>Campioni Soccer Academy</li>
+                          <li>Football Academy</li>
+                          <li>Tennis Academy</li>
+                          <li>Squash Academy</li>
+                          <li>Swimming Academy</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <p
-            className={cx(styles.reverse, styles.margin, gus.padding1)}
-            style={{ marginLeft: "30px", textAlign: "left" }}
-          >
-            Walk: Take a leisurely stroll.
-            <br />
-            <br />
-            Boat: Take a complimentary water taxi from our boat dock to Epcot or
-            Disney’s Hollywood Studios. Boats depart every 15-20 minutes.
-            <br />
-            <br />
-            Shuttle Bus: Take complimentary transportation to all Walt Disney
-            World parks and attractions, including Disney Springs. Buses depart
-            every 20-30 minutes.
-            <br />
-            <br />
-            *Check the{" "}
-            <Anchor href={"https://swandolphin.com/mobile-app/"}>
-              Walt Disney World Swan and Dolphin App
-            </Anchor>{" "}
-            for the latest openings and hours of operation.
-          </p>
         </div>
       </>
     </Layout>

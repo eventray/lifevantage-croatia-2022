@@ -2,10 +2,10 @@ import React from "react";
 import styles from "../scss/faqs.module.scss";
 import cx from "classnames";
 import { Layout } from "../components/Layout";
-import golf from "../img/activities/golf.png";
-import health from "../img/activities/health.png";
-import pool from "../img/activities/pool.png";
-import spa from "../img/activities/spa.png";
+import styles1 from "../scss/accommodations.module.scss";
+import one from "../img/activities/1.png";
+import two from "../img/activities/2.png";
+import three from "../img/activities/3.png";
 
 import { Anchor } from "../components/Anchor";
 
@@ -28,279 +28,221 @@ export function Activities() {
             }}
           >
             <br /> ACTIVITES
+            <br />
+            <br />
+            Buy-In via Registration
           </h2>
           <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/activities/pools-beach-and-watercraft-rentals/">
-              Pools, Beach & Watercraft Rentals{" "}
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
+
+          <br />
+          <h3>Boat Tour (Tiny Island & Dubrovnik Walls)</h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+          >
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "5px" }}
+              >
+                <p>
+                  <strong> Date:</strong> Sunday, September 11th
+                  <br />
+                  <strong> Time:</strong> 10:00am – 2:00pm <br />
+                  <strong>Where to meet: </strong>
+                  Sun Gardens Resort Port at <strong>9:45am</strong> <br />
+                  <strong>Duration:</strong> This sail is 4 hours
+                  <br />
+                  <strong> What to bring: </strong>
+                  Causal wear, hat camera, sunscreen, towels & swimsuit
+                  <br /> and small cash bills for bar on the island.
+                </p>
+                <br />
+                <p>
+                  Nothing beats slow sailing on historic ships across the
+                  turquoise Adriatic Sea in the Dubrovnik archipelago waters.{" "}
+                </p>
+                <br />
+                <p>
+                  Ships will leave directly from the Sun Gardens Resort and sail
+                  across the channel to Lopud island, an eponymous village home
+                  of many famous captains and sailors. You will enjoy exploring
+                  the village along Lopud Bay, where a short swim on the beach
+                  is also possible.
+                </p>
+                <br />
+                <p>
+                  Returning directly to the Sun Gardens Resort, we set sail to
+                  the mighty Dubrovnik Walls – amongst the largest and the most
+                  monumental city walls in the World. This tour will surely be a
+                  memorable experience.{" "}
+                </p>
+                <ul style={{ textAlign: "left", marginLeft: "20px" }}>
+                  <li>
+                    <strong>Lunch and Welcome Drink Included</strong>
+                    <ul style={{ textAlign: "left", marginLeft: "20px" }}>
+                      <li>
+                        Lunch (Hot & Cold Pasta options, Potato Gnocchi,
+                        Vegetable Risotto, Fresh Seasonal Salads and Fresh
+                        Seasonal Fruit).
+                      </li>
+                      <li>
+                        Non – Alcoholic Drink (Juice, Still or Sparkling Water,
+                        Coffee or Tea){" "}
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <br />
+                <p>
+                  Packaged price of <strong>$135.00 per person </strong>(5 &
+                  older) arranged exclusively for LifeVantage Distributors.
+                  <br /> *Children (0 - 4) Free
+                </p>
+                <br />
+                <p>
+                  If you are interested in this Boat Tour, make sure to add it
+                  during registration. Deadline to sign up for this activity is{" "}
+                  <strong>NO LATER than Monday, August 1st.</strong>
+                </p>
+                <br />
+                <p>
+                  <strong>Please Note:</strong> Once your registration is
+                  complete this activity is non-refundable.
+                </p>
+              </div>
+            </div>
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
               <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={pool}
-                alt={"pool"}
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={one}
+                alt={"San Marco Hotel"}
+                className={styles.margin}
+              />
+              <img
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={two}
+                alt={"San Marco Hotel"}
                 className={styles.margin}
               />
             </div>
           </div>
           <br />
-
-          <p>
-            Get ready for fun in the sun! With six unique pools – not to mention
-            whirlpools, fountains and beautiful cascading waterfalls, all
-            nestled in an exotic tropical environment, you’ll find the perfect
-            spot to relax in the shade or enjoy the Florida sunshine.  Grab a
-            good book and crawl into a relaxing hammock on the white sand
-            beach.  The expansive pool area provides the best of both worlds:
-            quiet alcoves for those who prefer a private place to unwind and
-            more lively areas with seasonal music and entertainment for those
-            who prefer a little more excitement. The large sun deck provides
-            plenty of room for relaxing, family friendly outdoor gaming, or just
-            enjoying the tropical pool oasis.
-            <br />
-            The crystal blue lap pool ensures you’ll keep up your fitness
-            regimen while on vacation and was recently named #1 of 10 hotel lap
-            pools in the country by Athletic Minded Traveler!  Or take a
-            leisurely ride around Crescent Lake on a swan paddle boat.  You’ll
-            find exciting activities for the whole family.
-          </p>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/activities/sports-trails-games/">
-              Sports, Trails & Games{" "}
-            </Anchor>{" "}
-          </h3>
-
-          <p>
-            Ping Pong: Enjoy some family friendly competition at our ping pong
-            tables. Paddles and balls are provided at each table. A table is
-            located at each of the lap pools.
-            <br />
-            <br />
-            Volleyball: Enjoy an invigorating game of volleyball with your
-            friends, family, and other hotel guests – either on the sand or in
-            the water. At the Walt Disney World Swan and Dolphin, they offer two
-            regulation size volleyball courts on the white sand beach. They also
-            have a net stretched across a section of the grotto pool. For your
-            convenience, volleyballs are available at the Cabana Beach Hut.
-            <br />
-            <br />
-            Jogging: The jogging trails offer more than just a safe place to
-            run. The scenic beauty alone is enough to get your heart pumping!
-            Jog down Disney’s BoardWalk, around Crescent Lake, and enjoy a
-            close-up view of Epcot and the neighboring Disney resorts.
-            <i>
-              *Stop by the health club to pick up a jogging map or {" "}
-              <Anchor href="https://swandolphin.com/wp-content/uploads/2021/03/Jogging-Map.pdf">
-                click here {" "}
-              </Anchor>{" "}
-              to print a copy.
-            </i>
-            <br />
-            <br />
-            Game Room: Family fun isn’t limited to the theme parks. Located on
-            the first level of the Dolphin, our game room is open daily and
-            machines are available to convert coins to tokens. So, grab a few
-            tokens and show how much of a pinball, air hockey or video game
-            wizard you truly are. Whether you are a kid or simply a kid at
-            heart, you’ll enjoy time together in our game room.
-          </p>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/activities/health-clubs/">
-              Health Club{" "}
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
+          <h2
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+            }}
+          >
+            <br /> LifeVantage Group Activity
+          </h2>
+          <h3>Dubrovnik Challenge</h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+          >
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
               <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={health}
-                alt={"health"}
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={three}
+                alt={"San Marco Hotel"}
                 className={styles.margin}
               />
             </div>
-          </div>
-          <br />
-
-          <p>
-            You can take advantage of a wide array to technologically advanced
-            equipment, free weights, cardiovascular equipment, elliptical
-            machines, and state of the art exercise bikes. Lockers, water and
-            towels are available. Enjoy TV’s or beautiful resort views as you
-            take care of your mind and body. 
-            <br />
-            <i>
-              *In the Dolphin wing, the Health Club is located on the first
-              floor, west side. It remains open 24 hours with access available
-              using your guest room key. 
-            </i>
-            <br />
-            Daily instructor led fitness classes: 
-            <ul style={{ marginLeft: "30px" }}>
-              <li>
-                Aqua HIIT!: This class offers a series of short fitness drills
-                in the water at high intensity intervals to provide participants
-                with a challenging and intense pool workout that offers results!
-              </li>
-              <li>
-                Zumba: This class is a Latin-dance-inspired aerobic fitness
-                format! No dance experience is required, your instructor will
-                show you all the moves and you will learn as you go! With dances
-                like Salsa, Merengue, Bachata, and Cumbia- Zumba feels like more
-                of a party than a workout. Sneakers recommended.
-              </li>
-              <li>
-                Cardio Splash: Bring your workout to the pool! Cardio-Splash
-                uses water resistance to improve cardiovascular fitness,
-                endurance and flexibility with a high-energy pool workout that
-                is fun for all fitness levels.
-              </li>
-              <li>
-                Beach Yogalates: This Class combines strength and flexibility
-                movements from both Yoga and Pilates for a Unique class dynamic.
-                Yogalates classes focus on increasing flexibility, strength, and
-                the mind/body connection.
-              </li>
-              <li>
-                Beach Yoga: In this class, our Yoga instructor will guide you
-                through a series of postures practiced to with a focus on
-                alignment to help increase flexibility and strengthen the body.
-                Class incorporates some breathing techniques and meditation to
-                help quiet the mind and develop a deeper mind-body connection.
-              </li>
-              <li>
-                Aqua Aerobics: Aqua Aerobics uses a combination of moves that
-                strengthen, tone, and help increase aerobic capacity with all
-                low-impact pool workout. Class is low-impact and great for all
-                levels!
-              </li>
-            </ul>
-            <i>
-              *A different class is offered each day, so please check the latest
-              schedule.
-            </i>
-          </p>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/activities/kids/camp-dolphin/">
-              Camp Dolphin{" "}
-            </Anchor>{" "}
-          </h3>
-
-          <p>
-            Camp Dolphin is a fun-filled club exclusively for kids. Located next
-            to the health club on the lower level of the Dolphin, Camp Dolphin
-            provides hours of non-stop fun and excitement with age-appropriate,
-            supervised activities including arts, crafts, movies, board games,
-            video games and nightly themed activities for children ages 5 - 12. 
-            A delicious meal and a snack are also provided.
-            <br />
-            <br />
-            Open nightly from 4:00pm to 11:00pm, (drop off time is from 4 pm to
-            5 pm & pick-up time is from 9 pm – 11 pm)
-            <i>
-              <Anchor href="https://swandolphin.247activities.com/">
-                *Reservations{" "}
-              </Anchor>{" "}
-              are required for Camp Dolphin’s evening program.
-            </i>
-          </p>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/activities/mandara-spa/">
-              Mandara Spa{" "}
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
-              <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={spa}
-                alt={"spa"}
-                className={styles.margin}
-              />
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "5px" }}
+              >
+                <p>
+                  <strong> Date:</strong> Monday, September 12th
+                  <br />
+                  <strong> Time:</strong> 8:30am – 12:30pm <br />
+                  <strong>Where to meet: </strong>
+                  Sun Gardens Ballroom at <strong>8:30am</strong>. <br />
+                  <strong>Duration:</strong> Plan on being with the group for 4
+                  hours
+                  <br />
+                  <strong> What to bring: </strong>
+                  Comfortable walking shoes, sunglasses & hat
+                </p>
+                <br />
+                <p>
+                  Little competition and a whole lot of fun!
+                  <br /> Join us for a day out on the town where you will engage
+                  in a friendly challenge with your team members and LifeVantage
+                  Executives as we take you in and around the Old Town of
+                  Dubrovnik.
+                  <br /> You will receive a list of assignments to complete
+                  while exploring everything this historic site offers.
+                </p>
+              </div>
             </div>
           </div>
-          <br />
-
+          <h2
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+            }}
+          >
+            <br /> Optional Buy-In Activities
+          </h2>
           <p>
-            An asian-inspired retreat offering exotic spa services as well as a
-            full-service hair and nail salon, the Manadara Spa is a
-            10,500-square-foot sanctuary for the senses. Think of it as your
-            personal oasis where you can relax, rejuvenate, and renew. Explore
-            the interior gardens: the intimate Tea Garden, a unique sitting and
-            sipping room, or the Meditation Garden. These exotic retreats
-            provide a destination where mind, body and soul meet.
-            <br />
-            <i>
-              *Receive $30 off spa services of $200 or more at The Mandara Spa
-              during each day of your visit (1) offer per room per night.
-            </i>
-            <br />
-            <br />
-            <Anchor href="https://swandolphin.com/wp-pdf/spa/mandara_spa_brochure.pdf">
-              Spa Brochure{" "}
-            </Anchor>{" "}
-            <br />
-            <br />
-            <Anchor href="http://www.mandaraspa.com/spa/Orlando-Walt-Disney-World-Swan-and-Dolphin.aspx">
-              Make a Reservation{" "}
-            </Anchor>{" "}
+            Dubrovnik is called The Pearl of the Adriatic Sea. With a nickname
+            like that, it’s hard not to expect sheer magnificence during your
+            visit. You will want to be sure to plan time to go out and see the
+            breathtaking scenery.
           </p>
           <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/activities/disney-golf-courses/">
-              Golf{" "}
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
-              <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={golf}
-                alt={"golf"}
-                className={styles.margin}
-              />
-            </div>
-          </div>
-          <br />
-
           <p>
-            Disney World Resort was recognized by the PGA of America as the Best
-            Golf Resort for Family Vacations. As a guest of the Walt Disney
-            World Swan & Dolphin Resort you can take advantage of any of the
-            three championship courses or the nine-hole walking course.
-            <br /> <br />
-            Magnolia Golf Course:
-            <br /> Power your way down the fairways at Disney’s Magnolia Golf
-            Course, designed in classic Tour style, this championship course is
-            the longest of the Walt Disney World Resort golf courses.
-            <br /> <br />
-            Palm Golf Course: <br /> Disney’s Palm Golf Course features
-            sparkling lakes and tropical sand, all in a gorgeous golf landscape
-            populated with strategically placed palms.
-            <br /> <br />
-            Lake Buena Vista Golf Course:
-            <br /> At Disney’s Lake Buena Vista Golf Course, enjoy a meandering
-            course that winds its way through pastel villas, pine forests,
-            palmettos and sparkling lakes.
-            <br />
-            <br />
-            <Anchor href="https://swandolphin.com/activities/disney-golf-courses/">
-              Book Tee Time{" "}
-            </Anchor>{" "}
-            or call 407-WDW-GOLF to reserve your tee time.
+            <strong>Click the below link</strong> and enter the password{" "}
+            <strong>lifevantage</strong> to explore and book the options that
+            are packages given exclusively to LifeVantage Distributors. Whether
+            you and your team want to go Kayak around the islands, explore the
+            Blue Cave, or take a day trip to the UNESCO World Heritage Site of
+            Mostar.
           </p>
           <br />
+          <p>
+            We hope you will be able to find something that fits within your
+            budget while not missing out on the sponsored LifeVantage group
+            activities.
+          </p>
+          <Anchor
+            target="_blank"
+            href="https://ventula-travel.com/private-day-tours/life-vantage-private-day-tours/"
+          >
+            <br />
+            <h2
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center",
+                textDecoration: "underline",
+              }}
+            >
+              <strong>LifeVantage Exclusive Activity Options</strong>
+            </h2>
+          </Anchor>
+          <p>
+            <strong>Please Note: </strong>These additional activities are at
+            your own expense and are only available to book on your free time
+            outside of the scheduled LifeVantage Group.
+          </p>
         </div>
       </div>
     </Layout>

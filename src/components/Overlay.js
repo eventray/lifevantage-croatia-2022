@@ -3,14 +3,14 @@ import styles from "../scss/overlay.module.scss";
 import { useLocation } from "react-router-dom";
 import cx from "classnames";
 
-import resorts from "../img/resort.jpg";
+import accomodation from "../img/Accommodations_original.jpg";
 import activities from "../img/Activities_original.jpg";
 import dining from "../img/Dining_original.jpg";
-import disney from "../img/disney.jpg";
+import legacy from "../img/legacy.jpg";
 import faqs from "../img/FAQ_original.jpg";
 import schedule from "../img/Schedule_original.jpg";
 import terms from "../img/TandC_original.jpg";
-import rooms from "../img/Rooms.png";
+import rooms from "../img/Rooms.jpg";
 
 export function Overlay({ title }) {
   const { pathname } = useLocation();
@@ -19,11 +19,11 @@ export function Overlay({ title }) {
   React.useEffect(() => {
     const images = {
       "/schedule": { src: schedule, position: "center" },
-      "/resorts": { src: resorts, position: "center" },
+      "/accomodation": { src: accomodation, position: "center" },
       "/rooms": { src: rooms, position: "center" },
       "/activities": { src: activities, position: "center" },
       "/dining": { src: dining, position: "center" },
-      "/disney3day": { src: disney, position: "center" },
+      "/legacy": { src: legacy, position: "center" },
       "/faqs": { src: faqs, position: "center" },
       "/terms": { src: terms, position: "center" },
     };
@@ -40,8 +40,7 @@ export function Overlay({ title }) {
           className={styles.landingBackground}
           style={{
             backgroundImage: `url(${image.src})`,
-            // backgroundPosition: image.position,
-            backgroundSize: "100% 100%",
+            marginTop: "68px",
           }}
         />
         <div className={cx(styles.negativeMargin, styles.landingOverlay)} />

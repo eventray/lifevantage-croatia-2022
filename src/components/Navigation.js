@@ -8,8 +8,8 @@ import { useLocation } from "react-router-dom";
 import logo from "../img/Logo.png";
 import burger from "../img/burger.png";
 
-import cx from "classnames";
 import gus from "../scss/gus.module.scss";
+import cx from "classnames";
 import styles from "../scss/navigation.module.scss";
 
 function WithScrollHOC({ children }) {
@@ -63,24 +63,29 @@ class Navigation extends React.Component {
             <Link {...linkProps("/schedule")}>Schedule</Link>
           </li>
           <li>
-            <Link {...linkProps("/resorts")}>Resort</Link>
+            <Link {...linkProps("/accomodation")}>Accomodation</Link>
           </li>
           <li>
-            <Link {...linkProps("/rooms")}>Rooms</Link>
+            <Link {...linkProps("/rooms")}>
+              Rooms, Additional Guests & Additional Nights
+            </Link>
+          </li>
+          <li>
+            <Link {...linkProps("/activities")}>Activities</Link>
           </li>
           <li>
             <Link {...linkProps("/dining")}>Dining</Link>
           </li>
 
           <li>
-            <Link {...linkProps("/activities")}>Activities</Link>
-          </li>
-          <li>
-            <Link {...linkProps("/disney3day")}> Disney-3-Day-Hopper</Link>
+            <Link {...linkProps("/legacy")}>Legacy</Link>
           </li>
 
           <li>
             <Link {...linkProps("/faqs")}>FAQs</Link>
+          </li>
+          <li>
+            <Link {...linkProps("/terms")}>Terms & Conditions</Link>
           </li>
         </ul>
       </>
@@ -101,7 +106,7 @@ class Navigation extends React.Component {
         <a
           className={cx(styles.secondaryBtn, styles.btn, gus.floatRight)}
           style={{}}
-          href={"https://reg.eventray.com/r/first-colony-mortgage/Ohana22"}
+          href="https://reg.eventray.com/r/lifevantage/be7894"
           target={"_blank"}
           rel={"noopener noreferrer"}
         >

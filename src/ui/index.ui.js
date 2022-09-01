@@ -6,7 +6,7 @@ import { rooms } from "./rooms";
 import { Faqs } from "./Faqs";
 import { Terms } from "./Terms";
 import { Dining } from "./Dining";
-import { Disney3day } from "./Disney3day";
+import { Legacy } from "./legacy";
 
 import Home from "./Home";
 
@@ -17,7 +17,7 @@ export {
   rooms,
   Faqs,
   Terms,
-  Disney3day,
+  Legacy,
   AdditionalGuest,
   Schedule,
   Dining,

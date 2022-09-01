@@ -9,7 +9,8 @@ import {
   rooms,
   Dining,
   Home,
-  Disney3day,
+  Legacy,
+  Terms,
 } from "./ui/index.ui";
 
 const R = ({ path, component: Component, exact, key }) => (
@@ -21,12 +22,13 @@ const R = ({ path, component: Component, exact, key }) => (
 const routes = [
   { path: "/", component: Home },
   { path: "/schedule", component: Schedule },
-  { path: "/resorts", component: Accommodations },
+  { path: "/accomodation", component: Accommodations },
   { path: "/rooms", component: rooms },
   { path: "/activities", component: Activities },
   { path: "/dining", component: Dining },
   { path: "/faqs", component: Faqs },
-  { path: "/disney3day", component: Disney3day },
+  { path: "/legacy", component: Legacy },
+  { path: "/terms", component: Terms },
 ];
 
 export default routes.map(({ path, component: Component, exact }) => (

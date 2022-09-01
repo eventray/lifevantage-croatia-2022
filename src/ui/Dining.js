@@ -2,18 +2,17 @@ import React from "react";
 import styles from "../scss/faqs.module.scss";
 import cx from "classnames";
 import { Layout } from "../components/Layout";
-import shulaSteak from "../img/dining/shulaSteak.png";
-import todd from "../img/dining/todd.png";
-import cabana from "../img/dining/cabana.png";
-import fountain from "../img/dining/fountain.png";
-import freshMedi from "../img/dining/freshMedi.png";
-import picabu from "../img/dining/picabu.png";
-import fuel from "../img/dining/fuel.png";
-import phins from "../img/dining/phins.png";
-import shulaLounge from "../img/dining/shulaLounge.png";
-import toddLounge from "../img/dining/toddLounge.png";
-
-import { Anchor } from "../components/Anchor";
+import styles1 from "../scss/accommodations.module.scss";
+import one from "../img/dining/1.png";
+import two from "../img/dining/2.png";
+import three from "../img/dining/3.png";
+import four from "../img/dining/4.png";
+import five from "../img/dining/5.png";
+import six from "../img/dining/6.png";
+import seven from "../img/dining/7.png";
+import eight from "../img/dining/8.png";
+import nine from "../img/dining/9.png";
+import ten from "../img/dining/10.png";
 
 export function Dining() {
   return (
@@ -35,321 +34,466 @@ export function Dining() {
           >
             <br /> DINING
           </h2>
-          <br />
-          <h3>
-            <u>Signature</u>
-          </h3>
-          <h4>Dress Code </h4>
-          <ul style={{ textAlign: "left", padding: "0px 20px" }}>
-            <li>
-              Men must wear khakis, slacks or dress shorts and shirts. Jeans may
-              be worn if in good condition. Sport coats are optional.
-            </li>
-            <li>
-              Women must wear dress pants, skirts, dresses or dress shorts.
-              Jeans may be worn if in good condition.
-            </li>{" "}
-            <li>
-              Not permitted: tank tops, swimsuits, swimsuit cover-ups, hats for
-              gentlemen, cut-offs and t-shirts with offensive language and/or
-              graphics.
-            </li>
-          </ul>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/shulas-steak-house/">
-              Shula’s Steak House{" "}
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
-              <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={shulaSteak}
-                alt={"shulaSteak"}
-                className={styles.margin}
-              />
-            </div>
-          </div>
-          <br />
-          <p>
-            Themed after the 1972 Miami Dolphins’ “Perfect Season” – the only
-            team in NFL history to finish a season undefeated, their custom cuts
-            and aging process are the highest in the industry. The Premium Black
-            Angus Beef® steaks accompanied with their aging process make up
-            their award winning SHULA CUT®, the best beef money can buy. You
-            won’t find a better steak anywhere.
-            <br />
-            <i>
-              {" "}
-              *Dinner only.{" "}
-              <Anchor href="https://www.opentable.com/restref/client/?rid=171706&restref=171706&lang=en-US&r3uid=GUlhIkTQ8&corrid=d8da1f6c-cb1c-4e87-91db-2d1b99198fe2">
-                Reservations{" "}
-              </Anchor>{" "}
-              recommended.
-            </i>
-          </p>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/todd-englishs-bluezoo/">
-              Todd English’s Bluezoo{" "}
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
-              <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={todd}
-                alt={"todd"}
-                className={styles.margin}
-              />
-            </div>
-          </div>
-          <p>
-            This AAA Four-Diamond creation of internationally renowned celebrity
-            chef Todd English features coastal cuisine with both international
-            and New American culinary influences. From the signature simply fish
-            to the two-pound Maine “Cantonese” lobster, Bluezoo’s menu serves
-            blissful bites for every palate. The restaurant’s award-winning
-            design by Jeffrey Beers captures an ethereal, underwater theme with
-            sophistication.
-            <br />
-            <i>
-              {" "}
-              *Dinner only.{" "}
-              <Anchor href="https://www.opentable.com/restref/client/?rid=171709&restref=171709&lang=en-US&r3uid=lGCYUJ0OPk&corrid=579322bb-0072-4bd7-88ea-134b61d50598">
-                Reservations{" "}
-              </Anchor>{" "}
-              recommended.
-            </i>
-          </p>
-          <br />
-          <h3>
-            <u>Casual</u>
-          </h3>
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/cabana-bar-and-beach-club/">
-              Cabana Bar and Beach Club
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
-              <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={cabana}
-                alt={"cabana"}
-                className={styles.margin}
-              />
-            </div>
-          </div>
-          <p>
-            Kick back poolside for a flatbread, fish tacos or grass-fed organic
-            burger. Located just steps from the Dolphin lap pool, the outdoor
-            Cabana Bar and Beach Club encourages everyone to “come as they are”
-            for savory treats including a sophisticated variety of appetizers,
-            salads, and entrees. 
-            <br />
-            <i>*Open daily for lunch and dinner</i>
-          </p>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/fountain/">
-              Fountain
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
-              <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={fountain}
-                alt={"fountain"}
-                className={styles.margin}
-              />
-            </div>
-          </div>
-          <p>
-            This ice cream fountain and snack shop is the ideal stop for crisp
-            salads, custom-grilled burgers and a delectable array of hearty
-            sandwiches and sweet treats.  It’s hard to resist the hand-dipped
-            and soft-serve ice cream, malts, and shakes.
-            <br />
-            <i>*Open for lunch and dinner.</i>
-          </p>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/fresh-mediterranean-market/">
-              Fresh Mediterranean Market
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
-              <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={freshMedi}
-                alt={"freshMedi"}
-                className={styles.margin}
-              />
-            </div>
-          </div>
-          <p>
-            At Fresh Mediterranean Market, they have gone to great lengths in an
-            effort to provide you with some of the finest, most wholesome, local
-            products available. Serving made-to-order breakfast dishes, along
-            with a full buffet, they are honored to have the opportunity to
-            present ingredients from local artisans and craftsmen. They take a
-            healthy, less is more approach. The less they tinker with the local
-            products, the more you will enjoy them.  Sangria and wine are also
-            featured!
-            <br />
-            <i>*Open for breakfast.</i>
-          </p>
-          <br />
-          <h3>
-            <u>Quick Serve</u>
-          </h3>
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/picabu/">
-              Picabu
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
-              <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={picabu}
-                alt={"picabu"}
-                className={styles.margin}
-              />
-            </div>
-          </div>
-          <p>
-            Picabu, for whom the restaurant is named, is an artful animated
-            wood-carved character adding excitement to the dining experience. 
-            The 24-hour fare, served cafeteria style, includes hot and cold
-            sandwiches, pizza and other favorites, perfect for family dining. A
-            Taqueria section allows guests to custom-order tacos and burritos.
-            <br />
-            Picabu Sundries Shop (adjacent to Picabu eatery) offers snacks,
-            toiletries, sodas and sweets as part of this fully-stocked
-            convenience store.  Visitors can stock up on everything needed for a
-            full day at the Disney theme parks.
-          </p>
-          <br />
+          <h3>Resort Restaurants and Bars</h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+          >
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  Dine at one of the restaurants at Sun Gardens Dubrovnik
+                  offering a mix of Dalmatian, Mediterranean, and International
+                  Culinary experiences.  The choice of bars offers a diverse mix
+                  of venues for every occasion. Poolside, evening, relax,
+                  vitality, sports, wine and beach bars provide a great chance
+                  to unwind and enjoy a refreshment in a lovely ambience.
+                </p>
 
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/fuel/">
-              Fuel
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
+                <p>
+                  Nothing beats slow sailing on historic ships across the
+                  turquoise Adriatic Sea in the Dubrovnik archipelago waters.{" "}
+                </p>
+                <br />
+                <p>
+                  **LifeVantage will pay for the meals that are not provided
+                  within the program. The money will be deposited into your
+                  hyperwallet account before your departure.
+                </p>
+                <br />
+                <p>
+                  <strong>DRESS CODE:</strong> <br />
+                  No formal dress code is required in the restaurants. Swimsuits
+                  are only allowed on pool bars and the beach area.
+                </p>
+                <br />
+                <p>
+                  <strong>SUN GARDENS ROOM SERVICE: </strong>
+                  7:00am – Midnight
+                </p>
+                <br />
+
+                <p>
+                  <i>
+                    **Please note that some of the bars & restaurants are opened
+                    primarily in the high season (from May until
+                    September). Hours displayed are subjected to change based on
+                    occupancy in the resort.{" "}
+                  </i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <h2
+            style={{
+              textAlign: "left",
+            }}
+          >
+            RESTAURANTS:
+          </h2>
+          <br />
+          <h3>Origano </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  A casual atmosphere and coastal views make Origano’s sunny
+                  terrace a perfect place to start the day. The fusion of
+                  delicate and healthy savory ingredients takes center stage
+                  each morning with a lavish buffet breakfast featuring a cheese
+                  & bread selection, various gourmet stations, natural juices,
+                  fruits and pastries and more. 
+                  <br />
+                  Located on the hotel’s Level R, Origano boasts a relaxed
+                  ambience befitting of its place with a sea view.
+                  <br />
+                  <strong>Hours:</strong> 8:00 – 11:00am
+                </p>
+              </div>
+            </div>
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
               <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={fuel}
-                alt={"fuel"}
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={one}
+                alt={"San Marco Hotel"}
                 className={styles.margin}
               />
             </div>
           </div>
-          <p>
-            On the go? Looking to stock up for the theme parks? Stop by Fuel to
-            recharge, refresh, and fill-up on coffee, ready-made sandwiches and
-            snacks. Fuel offers guests a convenient way to energize during the
-            day, whether it’s filled with business meetings or exploring the
-            theme parks. Our baristas can create your favorite caffeinated
-            concoctions to carry you through the day. You can also enjoy a fresh
-            frozen dessert at our D.I.Y. yogurt stand or grab a decadent sweet
-            pastry created by our pastry chefs. Fuel now offers fresh baked
-            pizza to satisfy those late-night cravings.
-          </p>
-          <br />
-          <h3>
-            <u>Lounges</u>
-          </h3>
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/phins/">
-              Phins
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
+          <br /> <h3>Cilantro </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
               <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={phins}
-                alt={"phins"}
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={two}
+                alt={"San Marco Hotel"}
+                className={styles.margin}
+              />
+            </div>
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  Inspired by a desire to explore the Mediterranean region, the
+                  Cilantro restaurant is a diner’s gem that you shouldn’t miss
+                  during your stay at the resort.
+                  <br />
+                  As the Adriatic Sea whispers on the shore, experience
+                  mouth-watering aromas from the open kitchen and enjoy a light
+                  lunch or a quiet romantic dinner for two. Authentic
+                  ingredients bursting with flavor and modern culinary
+                  techniques make Cilantro the perfect choice when you wish to
+                  enjoy delightful dishes in chic surroundings with a view of
+                  the sea.
+                  <br />
+                  <strong>Hours:</strong> Noon – 11:30pm
+                  <br />
+                  Lunch: Noon – 5:00pm
+                  <br />
+                  Dinner: 7:00pm – 11:30pm
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <h3>La Pasta </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  Take a culinary journey at La Pasta, a modern restaurant
+                  specializing in fresh and simple Italian cuisine. Satisfy your
+                  craving for fresh, home-made pasta, a delicious Neapolitan
+                  pizza, or a light and crispy salad, served against the
+                  backdrop of innovative décor in woody surroundings. An open
+                  kitchen with a bread oven exclusively for baking pizzas offers
+                  diners a wonderful dining experience.
+                  <br />
+                  <strong>Hours:</strong> Noon – 11:00pm
+                </p>
+              </div>
+            </div>
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
+              <img
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={three}
+                alt={"San Marco Hotel"}
                 className={styles.margin}
               />
             </div>
           </div>
-          <p>
-            Phins is a contemporary lounge centrally located in the Dolphin
-            lobby.  Guests can enjoy light bites, sipping on custom-crafted
-            cocktails, a glass of vintage wine, or even a frosty mug of our very
-            own Phins and Feathers beer.
-            <br />
-            Phins is the ideal gathering spot for family, friends and
-            colleagues. Try Phins’ adult punch daily special, Sunday morning
-            specialty brunch cocktails or their own signature cocktails. 
-          </p>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/shulas-lounge/">
-              Shula’s Lounge
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
+          <br /> <h3>The Market </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
               <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={shulaLounge}
-                alt={"shulaLounge"}
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={four}
+                alt={"San Marco Hotel"}
+                className={styles.margin}
+              />
+            </div>
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  A perfect choice for a locally inspired evening meal. After a
+                  stroll and perhaps a spot of shopping through the resort's
+                  main storefront area, enjoy a fine late lunch or a dinner in a
+                  lovely setting. The Market offers fresh seafood specialties
+                  with an amazing panoramic view over the crystal-clear Adriatic
+                  Sea from the welcoming terrace.
+                  <br />
+                  Match one of these sublime dishes with a bottle of fine local
+                  wine and you have an authentic experience in a truly unique
+                  Dalmatian atmosphere.
+                  <br />
+                  <strong>Hours:</strong> 6:00pm – 11:30pm
+                </p>
+              </div>
+            </div>
+          </div>{" "}
+          <br />
+          <h3>Butcher’s Grill </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  Butcher's Grill is a “must visit” eatery for meat lovers. With
+                  a live kitchen and the highest quality meats from all over the
+                  world, you are guaranteed a delicious meal.
+                  <br />
+                  As your steak sizzles on the grill, why not run through our
+                  extensive wine list to find the perfect combination. Our
+                  friendly staff are on hand at all times to guide you through
+                  our menus and offer advice on the ideal way to serve your
+                  steak.
+                  <br />
+                  <strong>Hours:</strong> 6:00pm – 11:30pm
+                </p>
+              </div>
+            </div>
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
+              <img
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={five}
+                alt={"San Marco Hotel"}
                 className={styles.margin}
               />
             </div>
           </div>
-          <p>
-            A cozy atmosphere with leather chairs, plenty of sports channels to
-            choose from, and a selection of fine beer, wine, and after-dinner
-            drinks.”
-            <br />
-            <i>*Open evenings.</i>
-          </p>
-          <br />
-          <h3>
-            {" "}
-            <Anchor href="https://swandolphin.com/dining/todd-englishs-bluezoo-lounge/">
-              Todd English’s Bluezoo Lounge
-            </Anchor>{" "}
-          </h3>
-          <div>
-            <div style={{ minWidth: "290px", margin: "0px auto" }}>
+          <br /> <h3>Sunset Grill – Pool Bar </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
               <img
-                style={{ width: "100%", maxHeight: "500px" }}
-                src={toddLounge}
-                alt={"toddLounge"}
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={six}
+                alt={"San Marco Hotel"}
+                className={styles.margin}
+              />
+            </div>
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  At our Sunset Pool, there is fun for the whole family, with
+                  water features, a dedicated kids’ pool, and a fantastic bar &
+                  grill.
+                  <br />
+                  Have a light lunch without wandering too far from the beach.
+                  Try wraps, salads and grilled specialties, or sample something
+                  lighter, such as bar snacks and local fruits, all in a
+                  family-friendly environment. Treat yourself with ice cream or
+                  a smoothie, and enjoy coffee, beer, wine, and cocktails near
+                  the pool.
+                  <br />
+                  <strong>Hours:</strong> 10:00am - 7:00pm
+                </p>
+              </div>
+            </div>
+          </div>{" "}
+          <br />
+          <h2
+            style={{
+              textAlign: "left",
+            }}
+          >
+            BARS:{" "}
+          </h2>
+          <h3>Maraska Lounge Bar </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  Soak in the stunning views of the sea and the nearby islands
+                  as you unwind, relax and catch up on the day’s events in the
+                  modern surroundings of the Maraska Lounge Bar.
+                  <br />
+                  Choose from an irresistible selection of drinks, including
+                  signature cocktails, wine by the glass and the best malt
+                  whiskeys or let our baristas make you a perfect cup of
+                  coffee. 
+                  <br />
+                  <strong>Hours:</strong> 9:00am to Midnight
+                </p>
+              </div>
+            </div>
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
+              <img
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={seven}
+                alt={"San Marco Hotel"}
                 className={styles.margin}
               />
             </div>
           </div>
-          <p>
-            Toast the good life with handmade classic cocktails, fine champagne,
-            or specialty cordials in a chic underwater setting around a blue,
-            backlit bar. Those seeking a unique taste can find the latest
-            creations from the resort’s expert mixologists, such as the Bazooka
-            Joe Vodka, the flaming Burnt Orange as well as the venue’s signature
-            cocktail, the Zooberry.  Light menu offered.
-            <br />
-          </p>
+          <br /> <h3>Lemonia Bar </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
+              <img
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={eight}
+                alt={"San Marco Hotel"}
+                className={styles.margin}
+              />
+            </div>
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  Experience true luxury as you lounge by one of the best pools
+                  in the world, as stated by the Conde Nast Traveler. Enjoy a
+                  beautiful, sunlit day at the family Lemonia Pool and unwind
+                  with a favorite cocktail, beer or wine. Delight in the
+                  selection of delicious, sweet snacks such as ice creams,
+                  smoothies and fresh, local fruits. 
+                  <br />
+                  <strong>Hours: </strong>10:00am – 7:00pm
+                </p>
+              </div>
+            </div>
+          </div>{" "}
           <br />
+          <h3>Beach Bar </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  Treat yourself to some thirst-quenching drinks, freshly
+                  squeezed juices and cold beverages all served in the paradise
+                  of the Adriatic coastline.
+                  <br />
+                  <strong>Hours:</strong> 10:00am – 7:00pm
+                </p>
+              </div>
+            </div>
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
+              <img
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={nine}
+                alt={"San Marco Hotel"}
+                className={styles.margin}
+              />
+            </div>
+          </div>
+          <br /> <h3>Marina Bar </h3>
+          <div
+            className={cx(
+              styles1.flexRoom,
+              styles1.reverseRoom,
+              styles1.margin
+            )}
+            style={{ maxWidth: "800px", margin: "auto" }}
+          >
+            <div className={styles1.marginLeft} style={{ maxWidth: "320px" }}>
+              <img
+                style={{ width: "320px", height: "280px" }}
+                height="400px"
+                src={ten}
+                alt={"San Marco Hotel"}
+                className={styles.margin}
+              />
+            </div>
+            <div>
+              <div
+                className={cx(styles.flexRoom, styles.margin)}
+                style={{ padding: "10px" }}
+              >
+                <p>
+                  Distance yourself from the hustle and bustle and let your
+                  cares slip into the sunset with a cocktail in the Marina Bar.
+                  This <strong>adults-only bar</strong> allows you to soak up
+                  the tranquility of the atmosphere whilst sipping a glass of
+                  fine wine, champagne, favorite cocktail or a long, cold beer.
+                  For a snack, try an ice cream, a smoothie or something else
+                  from our snack menu and relax with a cup of coffee.  
+                  <br />
+                  <strong>Hours:</strong> 10:00am – 7:00pm
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
