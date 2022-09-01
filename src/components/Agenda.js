@@ -22,8 +22,8 @@ const list_schedule = [
         location: <>LifeVantage Registration / Activity Desk</>,
       },
       evening: {
-        text: "7 – 9 PM	",
-        location: <>Welcome Reception - Sunset Pool Deck </>,
+        text: "PM",
+        location: "Dinner on own",
       },
     },
   },
@@ -34,7 +34,7 @@ const list_schedule = [
     day: {
       allDay: {
         text: <>8:00 AM</>,
-        location: "Breakfast – Origano Hotel Restaurant",
+        location: "Breakfast - Origano Hotel Restaurant",
       },
       morning: {
         text: "9:00 AM",
@@ -44,7 +44,7 @@ const list_schedule = [
         text: "10:00 AM	",
         location: (
           <>
-            Optional buy-in – Boat Tour <br />
+            Optional buy-in - Boat Tour <br />
             (Island Tour & Old Town)
             <br />
             (Pick up and drop off at Sun Gardens)
@@ -56,8 +56,8 @@ const list_schedule = [
         location: "",
       },
       evening: {
-        text: "PM",
-        location: "Afternoon on own ",
+        text: "7 - 9 PM",
+        location: <>Welcome Reception - Sunset Pool Deck</>,
       },
     },
   },
